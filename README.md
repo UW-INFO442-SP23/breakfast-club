@@ -13,6 +13,12 @@ This solution works specifically to address the United Nations 2nd Sustainable D
 Throughout the first ten months of 2022, the number of King County families visiting food pantries and receiving assistance from Washington state’s Supplemental Nutrition Assistance Program (SNAP) increased (King County). This trend suggests a rise in individuals from King County suffering from food insecurity. 
 
 ## Features
+* Catalog of common products at food banks in King County categorized by macronutrients
+* Dietary preference filters that can be applied to the catalog
+* Micronutrient filters to sort foods and meals
+* Nutrition facts and ingredient lists for meals
+* Multi-media information sharing about food health and well-being
+
 
 # GitHub Pages
 The published site can be viewed here: 
