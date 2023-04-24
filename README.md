@@ -1,6 +1,6 @@
-<h1 align="center">Bringing Nutrition to King County</h1>
+<h1 align="center">Nourished Kings</h1>
 
-<h2 align="center"><em>Tagline</em></h2>
+<h2 align="center"><em>Bringing Nutrition to King County</em></h2>
 
 <p align="center">Group 1: The Breakfast Club</p>
 
