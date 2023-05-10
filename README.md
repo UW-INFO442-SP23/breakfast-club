@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+<h1 align="center">Nourished Kings</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center"><em>Bringing Nutrition to King County</em></h2>
 
-## Available Scripts
+<p align="center">Group 1: The Breakfast Club</p>
 
-In the project directory, you can run:
+<h2>Our Mission</h2>
 
-### `npm start`
+Our goal is to create an application that will guide food banks to use commonly found foods to create nutritional meals for low income individuals in King County.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This solution works specifically to address the United Nations 2nd Sustainable Development Goal: Zero Hunger. In 2020, more than 30% of the world’s population were either moderately or severely suffering from food insecurity (United Nations). With the COVID-19 pandemic, the rates of people undergoing hunger have been rising, but especially for children (United Nations). 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Throughout the first ten months of 2022, the number of King County families visiting food pantries and receiving assistance from Washington state’s Supplemental Nutrition Assistance Program (SNAP) increased (King County). This trend suggests a rise in individuals from King County suffering from food insecurity. 
 
-### `npm test`
+## Features
+* Catalog of common products at food banks in King County categorized by macronutrients
+* Dietary preference filters that can be applied to the catalog
+* Micronutrient filters to sort foods and meals
+* Nutrition facts and ingredient lists for meals
+* Multi-media information sharing about food health and well-being
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# GitHub Pages
+The published site can be viewed here: 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Group Members
+* Aman Brar
+* Travon Dao
+* Cheryl Feng
+* Yawen (Jenny) Guo
+* Kenny Pham
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Development Instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# References
+King County (2023). King County Food Insecurity Screening Community of Practice. Retrieved April 4, 2023, from https://kingcounty.gov/depts/health/heal/learning-network.aspx
+ 
+United Nations (n.d.). Sustainable Development Goals - Goal 2: Zero Hunger. Retrieved April 4, 2023, from https://www.un.org/sustainabledevelopment/hunger/
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
