@@ -13,11 +13,9 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 export default function App(props) {
     return (
         <div>
-           
             <Router>
                 <Navbar/>
                 <Routes>
-                
                     <Route path="/Home" element={<Home/>} />
                     <Route path="/About" element={<AboutUs />} />
                     <Route path="/Food-Catalog" element={<FoodCatalog/>} />
@@ -26,7 +24,6 @@ export default function App(props) {
                     <Route path="/404" element={<NotFound/>} />
                 </Routes>
             </Router>
-            <Footer/>
         </div>
     );
   }  
