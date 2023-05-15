@@ -23,7 +23,9 @@ export default function App(props) {
                     <Route path="/Guidelines" element={<Guidelines />} />
                     <Route path="/404" element={<NotFound/>} />
                 </Routes>
+                <Footer />
             </Router>
+            
         </div>
     );
   }  
