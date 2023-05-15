@@ -12,17 +12,19 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 
 export default function App(props) {
     return (
-      <div>
-        <Router>
-          <Routes>
-          <Route path="/Home" element={<Home/>} />
-          <Route path="/About" element={<AboutUs />} />
-          <Route path="/Food-Catalog" element={<FoodCatalog/>} />
-          <Route path="/Meals" element={<Meals/>} />
-          <Route path="/Guidelines" element={<Guidelines />} />
-          <Route path="/404" element={<NotFound/>} />
-          </Routes>
-        </Router> 
-      </div>
+        <div>
+            <Navbar/>
+            <Router>
+                <Routes>
+                    <Route path="/Home" element={<Home/>} />
+                    <Route path="/About" element={<AboutUs />} />
+                    <Route path="/Food-Catalog" element={<FoodCatalog/>} />
+                    <Route path="/Meals" element={<Meals/>} />
+                    <Route path="/Guidelines" element={<Guidelines />} />
+                    <Route path="/404" element={<NotFound/>} />
+                </Routes>
+            </Router>
+            <Footer/>
+        </div>
     );
   }  
