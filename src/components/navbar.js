@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
-export function Navbar() {
+export default function Navbar() {
 
   return (
     <div className="navbar-container">
