@@ -13,9 +13,11 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 export default function App(props) {
     return (
         <div>
-            <Navbar/>
+           
             <Router>
+                <Navbar/>
                 <Routes>
+                
                     <Route path="/Home" element={<Home/>} />
                     <Route path="/About" element={<AboutUs />} />
                     <Route path="/Food-Catalog" element={<FoodCatalog/>} />
