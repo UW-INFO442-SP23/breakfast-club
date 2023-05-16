@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="navbar-container">
       <div className="topNav">
-        <Link to="/" className="site-title">Nourished Kings</Link>
+        <Link to="/" class="site-title">Nourished Kings</Link>
       </div>
       <nav className="nav">
         <ul>
