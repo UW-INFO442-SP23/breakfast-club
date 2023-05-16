@@ -1,39 +1,56 @@
 .navbar-container {
     background-color: #F7934C;
     padding: 10px;
-    display: row;
     height: 75px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
   }
+
    .topNav {
-    display: row;
-    justify-content: center;
     font-weight: bold;
-    font-family: 'Montserrat';
   }
    .site-title {
-    font-size: 20px;
-    color: #333;
+    font-size: 24px;
+    color: black;
     text-decoration: none;
     font-family: 'Montserrat';
+    
   }
    .nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
     padding: 0;
   }
    .nav li {
-    margin-right: 10px;
+    margin-right: 25px;
+    font-size: 24px;
   }
    .nav a {
     text-decoration: none;
-    color: #333;
+    color: black;
     font-family: 'Montserrat';
   }
    .nav li.active {
-
     font-weight: bold;
   }
+
+.footer {
+  background-color: #F7934C;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.footer .title {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 23px;
+}
 
 
 /* 404 Page */

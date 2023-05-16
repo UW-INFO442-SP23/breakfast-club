@@ -6,12 +6,12 @@ export default function Footer(){
         <div class="footer">
             <div><image class="logo"/></div>
             <div class="title">BREAKFAST CLUB</div>
-            <div>
+            <div class="footerLinks">
                 <Link to="/Home">Home</Link>
                 <Link to="/About">About Us</Link>
             </div>
             <div>
-                <p>&copy; INFO 442 The Breakfast Club 2023 iSchool</p>
+                <p>&copy;INFO 442 The Breakfast Club 2023 iSchool</p>
             </div>
         </div>
     )
