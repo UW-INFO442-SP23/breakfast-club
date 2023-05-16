@@ -10,8 +10,6 @@ export default function AboutUs(props) {
             <div className="paragraphDiv">
             <p>We decided to take on this goal at a local level. So we asked: <strong>How might we connect restaurants with food banks to provide the low-income community in King County with access to free, high-quality, healthy food?</strong></p>
             </div>
-        
-          
         </div>
     );
 
