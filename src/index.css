@@ -105,4 +105,20 @@
   font-family: 'Montserrat';
 }
 
+h1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Montserrat';
+  font-size: 48px;
+}
+
+.paragraphDiv {
+  margin: auto;
+  width: 500px;
+}
+
+.paragraphDiv p {
+  justify-self: center;
+}
 /* 404 Page */
