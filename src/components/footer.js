@@ -13,7 +13,7 @@ export default function Footer(){
                 </ul>
             </div>
             <div className="col-4 projectInfo">
-                <p>&copy;INFO 442 The Breakfast Club 2023 iSchool</p>
+                <p>&copy;2023 INFO 442 Breakfast Club</p>
             </div>
         </div>
     )

@@ -73,6 +73,8 @@
 
 .footerLinks ul {
   list-style: none;
+  margin: auto;
+  margin-left: 40px;
 }
 
 .footerLinks {
@@ -81,6 +83,7 @@
 .footerList li a{
   text-decoration: none;
   color: black;
+  font-family: 'Montserrat';
 }
 
 .footerList li a.active {
@@ -98,7 +101,8 @@
   color: black;
   bottom: 0px;
   right: 0px;
+  margin: auto;
+  font-family: 'Montserrat';
 }
-
 
 /* 404 Page */
