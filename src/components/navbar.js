@@ -6,7 +6,8 @@ export default function Navbar() {
   return (
     <div className="navbar-container">
       <div className="topNav">
-        <Link to="/" class="site-title">Nourished Kings</Link>
+      <img src="img/Icon_vegetables.png" alt="tomato and cucumber logo"></img>
+        <Link to="/" className="site-title">Nourished Kings</Link>
       </div>
       <nav className="nav">
         <ul>

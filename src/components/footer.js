@@ -1,16 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Footer(){
     return(
-        <div class="footer">
-            <div><image class="logo"/></div>
-            <div class="title">BREAKFAST CLUB</div>
-            <div class="footerLinks">
-                <Link to="/Home">Home</Link>
-                <Link to="/About">About Us</Link>
+        <div className="footer row">
+            <div className="col-2 imgDiv"><img className="logo" src="img/Icon_vegetables.png" alt="Tomato and cucumber logo"/></div>
+            <div className="title col-3">BREAKFAST CLUB</div>
+            <div className="footerLinks col-3">
+                <ul className="footerList">
+                    <li><NavLink to="/" >Home</NavLink></li>
+                    <li><NavLink to="/About" activeClassName="active">About Us</NavLink></li>
+                </ul>
             </div>
-            <div>
+            <div className="col-4 projectInfo">
                 <p>&copy;INFO 442 The Breakfast Club 2023 iSchool</p>
             </div>
         </div>
