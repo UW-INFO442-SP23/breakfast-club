@@ -36,3 +36,58 @@
 
 
 /* 404 Page */
+
+body {
+  position: absolute;
+  font-family: 'Montserrat';
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+
+h1 /* 404 */
+{
+  width: 409px;
+  height: 135px;
+  left: 263px;
+  top: 300px;
+
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 156px;
+}
+
+body {
+  width: 409px;
+  height: 188px;
+  left: 694px;
+  top: 284px;
+
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.bodytwo {
+  width: 351px;
+  height: 88px;
+  left: 604px;
+  top: 583px;
+
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.btn {
+  position: absolute;
+  width: 180px;
+  height: 60px;
+  left: 687px;
+  top: 698px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
