@@ -1,40 +1,264 @@
 .navbar-container {
     background-color: #F7934C;
     padding: 10px;
-    display: row;
     height: 75px;
+    display: flex;
+    flex-direction: row;
+
   }
    .topNav {
-    display: row;
-    justify-content: center;
+    margin-right: 25px;
+  }
+
+  .topNav img {
+    height: 3rem;
+    width: rem;
+  }
+
+   .site-title {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
     font-weight: bold;
     font-family: 'Montserrat';
+    border-right: thin solid black;
+    padding-right: 25px;
   }
-   .site-title {
-    font-size: 20px;
-    color: #333;
-    text-decoration: none;
-  }
+
    .nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
     padding: 0;
+
   }
    .nav li {
-    margin-right: 10px;
+    margin-right: 20px;
+    font-size: 24px;
   }
    .nav a {
     text-decoration: none;
-    color: #333;
+    color: black;
     font-family: 'Montserrat';
   }
    .nav li.active {
-
-    color: red
+    font-weight: bold;
   }
 
+.footer {
+  background-color: #F7934C;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+}
 
+.footer .title {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 23px;
+  color: black;
+  text-align: center;
+  margin: auto;
+}
+
+.imgDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  margin: auto;
+}
+
+.footerLinks ul {
+  list-style: none;
+  margin: auto;
+  margin-left: 40px;
+}
+
+.footerLinks {
+  margin: auto;
+}
+.footerList li a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat';
+}
+
+.footerList li a.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.projectInfo {
+  font-family: 'roboto';
+  color: black;
+  margin: auto;
+}
+
+.projectInfo p {
+  color: black;
+  bottom: 0px;
+  right: 0px;
+  margin: auto;
+  font-family: 'Montserrat';
+}
+
+h1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Montserrat';
+  font-size: 48px;
+}
+
+.paragraphDiv {
+  margin: auto;
+  width: 500px;
+}
+
+.paragraphDiv p {
+  justify-self: center;
+}
+
+/* 404 Page */
+/* Food Catalog Page*/
+.catalog{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.catalog h2{
+  font-size:3em;
+  font-weight:bolder;
+  margin-top:1em;
+}
+
+.catalog h3{
+  font-size:1.75em;
+  margin-bottom: 1.5em;
+}
+
+.catalog h4{
+  font-size:1.125em;
+  font-weight:bold;
+}
+
+.card{
+  width: 250px;
+  background-color: #98C9A3;
+  padding-bottom: .5em;
+  padding-left: .5em;
+  padding-right: .5em;
+  border-radius: 20px;
+  margin: 1em;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3); /*From https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
+}
+
+.card-deck{
+  margin-bottom: 5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.card-title{
+  font-weight:bolder;
+  font-size:1.5em;
+}
+
+.card-img-bot{
+  width: 100%;
+  height: 10vw;
+  object-fit: cover;
+  border: solid white 2px;
+  border-radius: 20px;
+}
+
+#filter-box{
+  text-align:left;
+  background-color: #DDDDDD;
+  border-radius: 20px;
+  margin-left: 1em;
+  padding:1.5em;
+  max-height: 500px;
+}
+
+#filter-box label{
+  display:block;
+  margin-bottom: .1em;
+}
+
+.catalog-content{
+  display: inline-flex;
+}
+
+/* home page */
+
+.h1HomeHeader {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Montserrat';
+  font-size: 48px;
+}
+
+.h1Home {
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Montserrat';
+  font-size: 48px;
+}
+
+.h1HomeFinal {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Montserrat';
+  font-size: 48px;
+  text-decoration: underline;
+  color:black
+}
+
+.pHomeHeader {
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Montserrat';
+  font-size: 26px;
+}
+
+.pHome {
+  text-align: center;
+  margin-top: 9%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Montserrat';
+  font-size: 26px;
+}
+
+.pHomeCenter {
+  text-align: center;
+}
+
+.paragraphDivHome {
+  margin: 10%;
+  width: 500px;
+}
+
+.paragraphDivHome p {
+  justify-self: center;
+}
+
+<<<<<<< HEAD
 /* 404 Page */
 
 body {
@@ -90,4 +314,9 @@ body {
   top: 698px;
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/* =======
+.homeimage {
+  width: 100%
+>>>>>>> 38bea0faaf36c20bf67dcba9753ff0c17721cccf
 }
