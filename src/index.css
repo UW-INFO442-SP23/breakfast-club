@@ -4,6 +4,7 @@
     height: 75px;
     display: flex;
     flex-direction: row;
+    /*border-bottom: 2px black solid; */
 
   }
    .topNav {
@@ -115,7 +116,7 @@ h1 {
 
 .paragraphDiv {
   margin: auto;
-  width: 500px;
+  width: 550px;
 }
 
 .paragraphDiv p {
@@ -259,6 +260,7 @@ h1 {
 }
 
 
+
 /* 404 Page */
 /*
 body {
@@ -297,7 +299,6 @@ body {
   height: 88px;
   left: 604px;
   top: 583px;
-
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;
