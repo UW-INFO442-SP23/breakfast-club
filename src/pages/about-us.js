@@ -17,10 +17,10 @@ export default function AboutUs(props) {
             <p>This website is our answer to that question.</p>
         </div>
 
-        <div class="pt-3 pb-4">
-        <div class="container">
-            <div class="row mt-4">
-                <div class="col text-center">
+        <div className="pt-3 pb-4">
+        <div className="container">
+            <div className="row mt-4">
+                <div className="col text-center">
                 <h3>
                     Meet our team!
                 </h3>
@@ -28,9 +28,9 @@ export default function AboutUs(props) {
             <br></br>
             <br></br>
             </div>
-            <div class="row">
-                <div class="col-md-4 text-center">
-                <img class="img-fluid qualities-img p-4" src="img/kenny.png" alt="Kenny Pham"></img>
+            <div className="row">
+                <div className="col-md-4 text-center">
+                <img className="img-fluid qualities-img p-4" src="img/kenny.png" alt="Kenny Pham"></img>
                 <h5>
                     {/* position */}
                 </h5>
@@ -39,8 +39,8 @@ export default function AboutUs(props) {
                 </p>
         
                 </div>
-                <div class="col-md-4 text-center">
-                <img class="img-fluid qualities-img p-4" src="img/aman.png" alt="Aman Brar"></img>
+                <div className="col-md-4 text-center">
+                <img className="img-fluid qualities-img p-4" src="img/aman.png" alt="Aman Brar"></img>
                 <h5>
                     {/* position */}
                 </h5>
@@ -49,9 +49,9 @@ export default function AboutUs(props) {
                 </p>
         
                 </div>
-                <div class="col-md-4 text-center">
+                <div className="col-md-4 text-center">
                     
-                    <img class="img-fluid qualities-img p-4" src="img/cheryl.png" alt="Cheryl Feng"></img>
+                    <img className="img-fluid qualities-img p-4" src="img/cheryl.png" alt="Cheryl Feng"></img>
                     <h5>
                     {/* position */}
                     </h5>
@@ -61,9 +61,9 @@ export default function AboutUs(props) {
                 </div>
             </div>
         
-            <div class="row mb-md-3">
-                <div class="col-md-4 text-center">
-                    <img class="img-fluid qualities-img p-4" src="img/jenny.png" alt="Yawen (Jenny) Guo"></img>
+            <div className="row mb-md-3">
+                <div className="col-md-4 text-center">
+                    <img className="img-fluid qualities-img p-4" src="img/jenny.png" alt="Yawen (Jenny) Guo"></img>
                     <h5>
                     {/* position */}
                     </h5>
@@ -71,8 +71,8 @@ export default function AboutUs(props) {
                     Yawen (Jenny) Guo
                     </p>
                 </div>
-                <div class="col-md-4 text-center">
-                    <img class="img-fluid qualities-img p-4" src="img/travon.png" alt="Travon Dao"></img>
+                <div className="col-md-4 text-center">
+                    <img className="img-fluid qualities-img p-4" src="img/travon.png" alt="Travon Dao"></img>
                     <h5>
                     {/* position */}
                     </h5>
@@ -80,8 +80,8 @@ export default function AboutUs(props) {
                     Travon Dao
                     </p>
                 </div>
-                <div class="col-md-4 text-center">
-                    <img class="img-fluid qualities-img p-4" src="img/aboutfiller.png" alt="Team Logo"></img>
+                <div className="col-md-4 text-center">
+                    <img className="img-fluid qualities-img p-4" src="img/aboutfiller.png" alt="Team Logo"></img>
                     <h5>
                     {/* position */}
                     </h5>

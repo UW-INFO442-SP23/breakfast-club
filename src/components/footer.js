@@ -9,7 +9,7 @@ export default function Footer(){
             <div className="footerLinks col-3">
                 <ul className="footerList">
                     <li><NavLink to="/" >Home</NavLink></li>
-                    <li><NavLink to="/About" activeClassName="active">About Us</NavLink></li>
+                    <li><NavLink to="/About" activeclassname="active">About Us</NavLink></li>
                 </ul>
             </div>
             <div className="col-4 projectInfo">
