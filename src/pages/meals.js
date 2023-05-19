@@ -7,7 +7,12 @@ export default function Meals(props) {
             <div className="meal-card">
                 <p className="meal-title">{props.info.name}</p>
                 <img src={props.info.img} alt={props.info.name}></img>
-                <p>See Details</p>
+                <div className="button-div">
+                    <button>
+                    <span className="button-text">See Details</span>
+                    </button>
+                </div>
+                
             </div>
         );
     }

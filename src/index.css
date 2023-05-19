@@ -259,16 +259,10 @@ h1 {
   justify-self: center;
 }
 
-.meals-page {
-
-
-  
-}
 
 .meal-container {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
 }
 
@@ -278,7 +272,6 @@ h1 {
   width: 250px;
   border-radius: 15px;
   margin: 10px;
-  margin-left: 30px;;
 }
 
 .meal-card img {
@@ -289,21 +282,33 @@ h1 {
 }
 
 .meal-title {
-  font-weight: semibold;
+  font-weight: bold;
   font-size: 25px;
   font-family: "Montserrat";
   padding-top: 15px;
 }
 
-
 .meal-card p {
   text-align: center;
   font-family: 'Montserrat';
-  margin-top: 3px;
   font-size: 20px;
 }
 
+.button-div {
+  display: grid;
+}
 
+.meal-card button {
+  font-family: "Montserrat";
+  background-color: transparent;
+  border: none;
+  color: #3B63CA;
+  font-size: 20px;
+}
+
+.button-text {
+  text-decoration: underline;
+}
 
 /* 404 Page */
 /*
