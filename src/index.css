@@ -259,12 +259,48 @@ h1 {
   justify-self: center;
 }
 
-.meal-container {
+.meals-page {
 
+
+  
+}
+
+.meal-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .meal-card {
-  
+  background-color: #98C9A3;
+  height: 300px;
+  width: 250px;
+  border-radius: 15px;
+  margin: 10px;
+  margin-left: 30px;;
+}
+
+.meal-card img {
+  width: 200px;
+  margin: auto;
+  display: block;
+  border-radius: 15px;
+}
+
+.meal-title {
+  font-weight: semibold;
+  font-size: 25px;
+  font-family: "Montserrat";
+  padding-top: 15px;
+}
+
+
+.meal-card p {
+  text-align: center;
+  font-family: 'Montserrat';
+  margin-top: 3px;
+  font-size: 20px;
 }
 
 

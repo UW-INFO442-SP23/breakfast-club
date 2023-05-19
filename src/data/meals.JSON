@@ -1,6 +1,22 @@
 [
-{"name": "Travon",
-"major": "info"}
-
-
+{"name": "Rice and Beans",
+"img": "./img/meals/riceandbeans.jpg",
+"ingredients" : "",
+"info" : {}
+},
+{"name": "Rice and Beans",
+"img": "./img/meals/riceandbeans.jpg",
+"ingredients" : "",
+"info" : {}
+},
+{"name": "Rice and Beans",
+"img": "./img/meals/riceandbeans.jpg",
+"ingredients" : "",
+"info" : {}
+},
+{"name": "Rice and Beans",
+"img": "./img/meals/riceandbeans.jpg",
+"ingredients" : "",
+"info" : {}
+}
 ]
