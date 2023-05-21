@@ -48,6 +48,7 @@
   font-weight: bold;
 }
 
+/************* footer *************/
 .footer {
   background-color: #F7934C;
   display: flex;
@@ -84,6 +85,7 @@
 .footerLinks {
   margin: auto;
 }
+
 .footerList li a{
   text-decoration: none;
   color: black;
@@ -126,8 +128,7 @@ h1 {
   justify-self: center;
 }
 
-/* 404 Page */
-/* Food Catalog Page*/
+/************* Food Catalog Page *************/
 .catalog{
   font-family: 'Montserrat';
   text-align: center;
@@ -199,8 +200,7 @@ h1 {
   display: inline-flex;
 }
 
-/* home page */
-
+/***************** home page ***************/
 .h1HomeHeader {
   text-align: center;
   margin-top: 5%;
@@ -312,8 +312,9 @@ h1 {
 .button-text {
   text-decoration: underline;
 }
-/*********** not-found page **********/
 
+
+/************** not-found page *************/
 .not_found_page_body {
   width: 100%;
   display: grid;
