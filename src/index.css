@@ -1,49 +1,52 @@
 .navbar-container {
-    background-color: #F7934C;
-    padding: 10px;
-    height: 75px;
-    display: flex;
-    flex-direction: row;
-    /*border-bottom: 2px black solid; */
+  background-color: #F7934C;
+  padding: 10px;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  /*border-bottom: 2px black solid; */
+}
 
-  }
-   .topNav {
-    margin-right: 25px;
-  }
+.topNav {
+  margin-right: 25px;
+}
 
-  .topNav img {
-    height: 3rem;
-    width: rem;
-  }
+.topNav img {
+  height: 3rem;
+  width: rem;
+}
 
-   .site-title {
-    font-size: 24px;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Montserrat';
-    border-right: thin solid black;
-    padding-right: 25px;
-  }
+.site-title {
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Montserrat';
+  border-right: thin solid black;
+  padding-right: 25px;
+}
 
-   .nav ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
+.nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
 
-  }
-   .nav li {
-    margin-right: 20px;
-    font-size: 24px;
-  }
-   .nav a {
-    text-decoration: none;
-    color: black;
-    font-family: 'Montserrat';
-  }
-   .nav li.active {
-    font-weight: bold;
-  }
+}
+
+.nav li {
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat';
+}
+
+.nav li.active {
+  font-weight: bold;
+}
 
 .footer {
   background-color: #F7934C;
@@ -309,58 +312,58 @@ h1 {
 .button-text {
   text-decoration: underline;
 }
+/*********** not-found page **********/
 
-/* 404 Page */
-/*
-body {
-  position: absolute;
+.not_found_page_body {
+  width: 100%;
+  display: grid;
   font-family: 'Montserrat';
   font-style: normal;
+  justify-content: center;
+  margin-top: 7em;
+  margin-bottom: 7em;
+}
+
+.error_container {
+  padding-left: 4em;
   display: flex;
   align-items: center;
-  text-align: center;
-  color: #000000;
-}
-*/
 
-/* .notfoundtitle
-{
-  width: 409px;
-  height: 135px;
-  left: 263px;
-  top: 300px;
-  font-weight: 700;
-  font-size: 128px;
-  line-height: 156px;
+}
+.error_code {
+  font-size: 5em;
 }
 
-.notfounddescr {
-  width: 409px;
-  height: 188px;
-  left: 694px;
-  top: 284px;
-
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 59px;
+.error_info {
+  padding-left: 2rem;
 }
 
-.notfoundbody {
-  width: 351px;
-  height: 88px;
-  left: 604px;
-  top: 583px;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 44px;
+.soup_container {
+  display: flex;
+  align-items: center;
 }
 
-.notfoundimg {
-  width: 300px;
-  height: 300px;
-  left: 263px;
-  top: 477px;
-} */
+.soup_subcontainer {
+  padding-left: 2em;
+}
+
+.soup_image {
+  width: 18em;
+  height: 18em;
+}
+
+.button {
+  height: 2.5em;
+  width: 7em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: none;
+  background-color: #98C9A3;
+  color:#ffff;
+  border-radius: 0.3em;
+  font-size: 1.3em;
+}
+
+
 /* .btn {
   position: absolute;
   width: 180px;
@@ -368,9 +371,7 @@ body {
   left: 687px;
   top: 698px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-<<<<<<< HEAD
-} */
-
+} 
 
 /*
 .homeimage {
