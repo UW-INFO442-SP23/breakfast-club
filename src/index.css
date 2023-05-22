@@ -486,6 +486,10 @@ body {
 */
 
 /* Guidelines */
+#guidelines{
+  font-family: 'Montserrat';
+}
+
 .dgadiv, .nutrientsdiv, .protdiv {
   display: flex;
   align-items: center;
@@ -508,6 +512,11 @@ body {
   font-weight: bold;
 }
 
+#videoheading{
+  text-align: center;
+  margin: 1% 15%;
+  font-size: 1em;
+}
 
 .fattextcontainer {
   display: flex;
@@ -529,6 +538,15 @@ body {
   text-align: center;
 }
 
+.videodiv{
+  display: flex;
+  justify-content: center;
+}
+
+.videodiv iframe{
+  width: 50%;
+  height: 25em;
+}
 
 
 /* .protimgcontainer {

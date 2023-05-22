@@ -2,8 +2,12 @@ import React from 'react';
 export default function Guidelines(props) {
 
   return (
-      <section>
+      <section id='guidelines'>
         <h1>Dietary Guidelines</h1>
+        <h2 id="videoheading">Here is a video giving an overview of best nutrtion and health practices as laid out by the USDA and USHHS</h2>
+        <div className='videodiv'>
+          <iframe src="https://www.youtube.com/embed/IR0PaeUNp4M"></iframe>
+        </div>
         <div className='dgadiv'>
             <img className='dgaimg' src='./breakfast-club/img/dgaguidelines.jpg' alt='dga guidelines'></img>
             <div className='dgatextcontainer'>
