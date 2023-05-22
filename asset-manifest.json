@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/breakfast-club/static/css/main.8b20990b.css",
-    "main.js": "/breakfast-club/static/js/main.dbd8651e.js",
+    "main.css": "/breakfast-club/static/css/main.bfec3b94.css",
+    "main.js": "/breakfast-club/static/js/main.062c925d.js",
     "index.html": "/breakfast-club/index.html",
-    "main.8b20990b.css.map": "/breakfast-club/static/css/main.8b20990b.css.map",
-    "main.dbd8651e.js.map": "/breakfast-club/static/js/main.dbd8651e.js.map"
+    "main.bfec3b94.css.map": "/breakfast-club/static/css/main.bfec3b94.css.map",
+    "main.062c925d.js.map": "/breakfast-club/static/js/main.062c925d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b20990b.css",
-    "static/js/main.dbd8651e.js"
+    "static/css/main.bfec3b94.css",
+    "static/js/main.062c925d.js"
   ]
 }
