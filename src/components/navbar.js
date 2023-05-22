@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="navbar-container">
       <div className="topNav">
-      <img src="./breakfast-club/img/Icon_vegetables.png" alt="tomato and cucumber logo"></img>
+      <img src="./breakfast-club/img/icon_vegetables.png" alt="tomato and cucumber logo"></img>
         <Link to="/breakfast-club" className="site-title">Nourished Kings</Link>
       </div>
       <nav className="nav">
