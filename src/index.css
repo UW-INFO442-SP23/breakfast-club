@@ -486,8 +486,12 @@ body {
 */
 
 /* Guidelines */
-#guidelines{
+.guidelines{
   font-family: 'Montserrat';
+}
+
+.guidelines h1{
+  font-weight: bolder;
 }
 
 .dgadiv, .nutrientsdiv, .protdiv {
@@ -500,16 +504,20 @@ body {
   max-width: 50%;
 }
 
+
+
 .dgatextcontainer, .prottextcontainer {
   flex-grow: 1;
   display: flex;
   align-items: center;
+  margin: 10em;
 }
 
 .dgadescr, .protdescr {
   margin: 0;
   text-align: center;
   font-weight: bold;
+  font-size: 2em;
 }
 
 #videoheading{
@@ -536,6 +544,8 @@ body {
 
 .nutrheading {
   text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
 }
 
 .videodiv{

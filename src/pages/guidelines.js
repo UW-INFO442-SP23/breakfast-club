@@ -2,16 +2,16 @@ import React from 'react';
 export default function Guidelines(props) {
 
   return (
-      <section id='guidelines'>
+      <section className='guidelines'>
         <h1>Dietary Guidelines</h1>
-        <h2 id="videoheading">Here is a video giving an overview of best nutrtion and health practices as laid out by the USDA and USHHS</h2>
+        <h2 id="videoheading">Here is a video giving an overview of best nutrition and health practices as laid out by the USDA and USHHS</h2>
         <div className='videodiv'>
           <iframe src="https://www.youtube.com/embed/IR0PaeUNp4M"></iframe>
         </div>
         <div className='dgadiv'>
             <img className='dgaimg' src='./breakfast-club/img/dgaguidelines.jpg' alt='dga guidelines'></img>
             <div className='dgatextcontainer'>
-              <p className='dgadescr'>This is an infographic taken from the Dietary Guidelines for Americans 2020-2025</p>
+              <p className='dgadescr'>This is an infographic sourced from the Dietary Guidelines for Americans 2020-2025</p>
             </div>
         </div>
 
@@ -29,11 +29,11 @@ export default function Guidelines(props) {
                 <b>Two Types of Protein: Complete protein</b>
                   <p>There are 9 essential amino acids the body can’t produce. We get these from complete proteins.
                   <i>Meat, fish, eggs, dairy and soy</i></p>
-              {/* <img className='compimg' src='./breakfast-club/img/compprot.png' alt='Examples of complete proteins'></img> */}
-                  {/* <b>Incomplete protein</b>
+                <img className='compimg' src='./breakfast-club/img/compprot.png' alt='Examples of complete proteins'></img>
+                  <b>Incomplete protein</b>
                   <p>Eating different incomplete protein during the day gives you the benefits of complete protein.
                   <i>Beans, nuts, and most whole grains</i></p>
-              <img className='incompimg' src='./breakfast-club/img/incompproteins.png' alt='Examples of incomplete proteins'></img> */}
+              <img className='incompimg' src='./breakfast-club/img/incompproteins.png' alt='Examples of incomplete proteins'></img> 
               </p>
 
             </div>
