@@ -392,7 +392,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 9999; 
+  z-index: 9999;
 }
 
 .popup {
@@ -403,7 +403,7 @@ h1 {
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   z-index: 9999;
-  
+
 }
 
 .popupContent h2{
@@ -478,7 +478,7 @@ body {
   left: 687px;
   top: 698px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-} 
+}
 
 /*
 .homeimage {
@@ -487,29 +487,34 @@ body {
 */
 
 /* Guidelines */
-.dgadiv, .nutrientsdiv {
+.dgadiv, .nutrientsdiv, .protdiv {
   display: flex;
   align-items: center;
+  margin: 50px;
 }
 
-.dgaimg, .carbsimg {
+.dgaimg, .carbsimg, .protimg {
   max-width: 50%;
 }
 
-.dgatextcontainer {
+.dgatextcontainer, .prottextcontainer {
   flex-grow: 1;
   display: flex;
   align-items: center;
 }
+
+.dgadescr, .protdescr {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
 
 .fattextcontainer {
   display: flex;
   flex-direction: column;
 
 }
-/* .fattextcontainer p {
-  text-align: left;
-} */
 
 .fatdescr {
   display: inline-block;
@@ -520,37 +525,27 @@ body {
   max-width: 10%;
 }
 
-.dgadescr {
-  margin: 0;
-  text-align: center;
-  font-weight: bold;
-}
 
 .nutrheading {
   text-align: center;
 }
 
-.prottextcontainer {
-  display: flex;
-  align-items: center;
-}
 
-.protimgcontainer {
+
+/* .protimgcontainer {
   flex-shrink: 0;
   margin-right: 10px;
-}
+} */
 
-.protimg {
-  max-width: 50%;
-}
 
-.prottextcontainer img {
+
+/* .prottextcontainer img {
   max-width: 10%;
 }
 
 .prottextcontainer p {
   flex-grow: 1;
-}
+} */
 
 
 .nutrdescr, .fatdescr {

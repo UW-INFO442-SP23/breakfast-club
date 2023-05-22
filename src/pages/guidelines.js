@@ -5,7 +5,7 @@ export default function Guidelines(props) {
       <section>
         <h1>Dietary Guidelines</h1>
         <div className='dgadiv'>
-            <img className='dgaimg' src='img/dgaguidelines.jpg' alt='dga guidelines'></img>
+            <img className='dgaimg' src='./breakfast-club/img/dgaguidelines.jpg' alt='dga guidelines'></img>
             <div className='dgatextcontainer'>
               <p className='dgadescr'>This is an infographic taken from the Dietary Guidelines for Americans 2020-2025</p>
             </div>
@@ -18,24 +18,19 @@ export default function Guidelines(props) {
           <div className='proteindiv'>
             <h3 className='protheading'>Protein 101</h3>
 
-            <div className='protimgcontainer'>
-              <img className='protimg' src='img/protein-guide.png' alt='protein guide'></img>
-            </div>
-
+            <img className='protimg' src='./breakfast-club/img/protein-guide.png' alt='protein guide'></img>
 
             <div className='prottextcontainer'>
-              <p className='protdescr'> <b>Two Types of Protein:
-                  Complete protein</b>
+              <p className='protdescr'>
+                <b>Two Types of Protein: Complete protein</b>
                   <p>There are 9 essential amino acids the body can’t produce. We get these from complete proteins.
                   <i>Meat, fish, eggs, dairy and soy</i></p>
-              </p>
-              <img className='compimg' src='img/compprot.png' alt='Examples of complete proteins'></img>
-              <p className='protdescr'>
-                  <b>Incomplete protein</b>
+              {/* <img className='compimg' src='./breakfast-club/img/compprot.png' alt='Examples of complete proteins'></img> */}
+                  {/* <b>Incomplete protein</b>
                   <p>Eating different incomplete protein during the day gives you the benefits of complete protein.
                   <i>Beans, nuts, and most whole grains</i></p>
+              <img className='incompimg' src='./breakfast-club/img/incompproteins.png' alt='Examples of incomplete proteins'></img> */}
               </p>
-              <img className='incompimg' src='img/incompproteins.png' alt='Examples of incomplete proteins'></img>
 
             </div>
 
@@ -45,7 +40,7 @@ export default function Guidelines(props) {
                 <img className='' src='' alt='why carbs?'></img>
               </div>
               <div>
-                <img className='carbsimg' src='img/carbs-guide.jpg' alt='carbs infographic'></img>
+                <img className='carbsimg' src='./breakfast-club/img/carbs-guide.jpg' alt='carbs infographic'></img>
               </div>
 
               <div className='carbstextcontainer'>
@@ -82,20 +77,20 @@ export default function Guidelines(props) {
                   <div className='fatdescr'>
                     <b>Healthy fats</b>
                     <p>Salmon, Tuna, olives, olive oil, avocados, nuts and seeds</p>
-                    <img src='img/healthyfats.png' alt='Examples of Healthy fats'></img>
+                    <img src='./breakfast-club/img/healthyfats.png' alt='Examples of Healthy fats'></img>
                   </div>
 
                   <div className='fatdescr'>
                     <b>Unhealthy saturated fats</b>
                     <p>red meat, dairy products (cheese, butter, ice cream)</p>
-                    <img src='img/unheatfats.png' alt='Examples of Unheathly saturated fats'></img>
+                    <img src='./breakfast-club/img/unheatfats.png' alt='Examples of Unheathly saturated fats'></img>
                   </div>
 
                   <div className='fatdescr'>
                     <b>Trans fats</b>
                     <p>Fried and Fast food and processed foods (crackers, chips, and cookies)</p>
 
-                    <img src='img/transfat.png' alt='Examples of Trans fats'></img>
+                    <img src='./breakfast-club/img/transfat.png' alt='Examples of Trans fats'></img>
                   </div>
 
                   </div>
