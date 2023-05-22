@@ -17,11 +17,11 @@ export default function App(props) {
             <Router>
                 <Navbar/>
                 <Routes>
-                    <Route path="/" element={<Home/>} />
-                    <Route path="/About" element={<AboutUs />} />
-                    <Route path="/Catalog" element={<FoodCatalog foods = {foods}/>} />
-                    <Route path="/Meals" element={<Meals/>} />
-                    <Route path="/Guidelines" element={<Guidelines />} />
+                    <Route path="/breakfast-club" element={<Home/>} />
+                    <Route path="/about" element={<AboutUs />} />
+                    <Route path="/catalog" element={<FoodCatalog foods = {foods}/>} />
+                    <Route path="/meals" element={<Meals/>} />
+                    <Route path="/guidelines" element={<Guidelines />} />
                     <Route path="/404" element={<NotFound/>} />
                 </Routes>
                 <Footer/>

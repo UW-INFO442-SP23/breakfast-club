@@ -284,11 +284,20 @@ h1 {
   margin: 10px;
 }
 
-.meal-card img, .popup-card img{
+.meal-card img {
   width: 200px;
+  height: 200px;
   margin: auto;
   display: block;
   border-radius: 15px;
+}
+
+.popup-card img {
+  width: 200px;
+  height: 200px;
+  margin-left: 25px;
+  border-radius: 15px;
+  margin-top: 20px;
 }
 
 .meal-title, .popup-card-title {
@@ -308,7 +317,7 @@ h1 {
   text-align: center;
   font-family: 'Montserrat';
   font-size: 18px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .popup-card {
@@ -325,6 +334,14 @@ h1 {
   height: 40px;
   border-radius: 5px;
   font-family: "Montserrat";
+  border: none;
+  position: relative;
+  margin-top: 20px;
+  left: 510px;
+}
+
+.close-button:hover {
+  background-color: #7EB78C;
 }
 
 .popup-left p {
