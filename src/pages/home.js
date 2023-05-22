@@ -6,7 +6,7 @@ export default function Home(props) {
     return(
 
   <section id="top-home-section" className="">
-    <img src="./breakfast-club/img/homebackground.png" className="img-fluid" alt="Responsive image"></img>
+    <img src="/breakfast-club/img/homebackground.png" className="img-fluid" alt="Responsive image"></img>
     <div id="top-home-container" className="container">
     <div className="">
       
@@ -62,20 +62,20 @@ export default function Home(props) {
 
     <div className="card-group">
   <div className="card">
-    <img className="card-img-top" src="./breakfast-club//img/homecard1.png" alt="Card image cap"></img>
+    <img className="card-img-top" src="/breakfast-club/img/homecard1.png" alt="Card image cap"></img>
     <div className="card-body">
       <h5 className="card-title pHomeCenter">View Nutrition</h5>
       <p className="card-text">View nutritional information of common King County food pantry items.</p>
     </div>
   </div>
   <div className="card">
-  <img className="card-img-top" src="./breakfast-club//img/homecard2.png" alt="Card image cap"></img>    <div className="card-body">
+  <img className="card-img-top" src="/breakfast-club//img/homecard2.png" alt="Card image cap"></img>    <div className="card-body">
       <h5 className="card-title pHomeCenter">Get Meal Inspiration</h5>
       <p className="card-text">Think about the next healthy meal you’ll provide at your food pantry, made with common items.</p>
     </div>
   </div>
   <div className="card">
-  <img className="card-img-top" src="./breakfast-club//img/homecard3.png" alt="Card image cap"></img>    <div className="card-body">
+  <img className="card-img-top" src="/breakfast-club//img/homecard3.png" alt="Card image cap"></img>    <div className="card-body">
       <h5 className="card-title pHomeCenter">Learn More</h5>
       <p className="card-text">Learn about calores, macronutrients, nutrition facts, and more from the FDA!</p>
     </div>
