@@ -269,7 +269,7 @@ h1 {
   justify-content: center;
 }
 
-.meal-card {
+.meal-card, .popup-card {
   background-color: #98C9A3;
   height: 300px;
   width: 250px;
@@ -277,14 +277,14 @@ h1 {
   margin: 10px;
 }
 
-.meal-card img {
+.meal-card img, .popup-card img{
   width: 200px;
   margin: auto;
   display: block;
   border-radius: 15px;
 }
 
-.meal-title {
+.meal-title, .popup-card-title {
   font-weight: bold;
   font-size: 25px;
   font-family: "Montserrat";
@@ -297,9 +297,53 @@ h1 {
   font-size: 20px;
 }
 
+.popup-card p{
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.popup-card {
+  margin-right: 50px;
+}
+
+.popup-container {
+  display: flex;
+}
+
+.close-button {
+  background-color: #98C9A3;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: "Montserrat";
+}
+
+.popup-left p {
+  font-family: "Montserrat";
+}
+
+.popup-left {
+  width: 50%;
+}
+
+.label {
+  background-color: white;
+  width: 50%;
+  height: 40%;
+}
+
+.label img {
+  width: 100%;
+  height: 500px;
+}
+
 .button-div {
   display: grid;
 }
+
+
 
 .meal-card button {
   font-family: "Montserrat";
@@ -317,7 +361,7 @@ h1 {
     justify-content: center;
 }
 
-overlay {
+.overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -341,11 +385,14 @@ overlay {
   
 }
 
-.popup h2{
+.popupContent h2{
   text-align: center;
   font-family: "Montserrat";
+  font-weight: bold;
   font-size: 35px;
 }
+
+
 
 /* 404 Page */
 /*

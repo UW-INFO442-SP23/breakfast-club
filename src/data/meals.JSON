@@ -1,27 +1,33 @@
 [
 {"name": "Rice and Beans",
 "img": "./img/meals/riceandbeans.jpg",
-"ingredients" : "",
-"info" : {}
+"ingredients" : "Long-grain parboiled rice, veggie stock, oil, onion, bell pepper, garlic, jalapeño, beans, cumin powder, chili powder, salt, pepper, cilantro",
+"info" : {},
+"description" : "A vegan-friendly meal"
 },
 {"name": "Rice and Beans",
 "img": "./img/meals/riceandbeans.jpg",
-"ingredients" : "",
-"info" : {}
+"ingredients" : "Long-grain parboiled rice, veggie stock, oil, onion, bell pepper, garlic, jalapeño, beans, cumin powder, chili powder, salt, pepper, cilantro",
+"info" : {},
+"description" : "A vegan-friendly meal"
 },
 {"name": "Rice and Beans",
 "img": "./img/meals/riceandbeans.jpg",
-"ingredients" : "",
-"info" : {}
+"ingredients" : "Long-grain parboiled rice, veggie stock, oil, onion, bell pepper, garlic, jalapeño, beans, cumin powder, chili powder, salt, pepper, cilantro",
+"info" : {},
+"description" : "A vegan-friendly meal"
 },
 {"name": "Rice and Beans",
 "img": "./img/meals/riceandbeans.jpg",
-"ingredients" : "",
-"info" : {}
+"ingredients" : "Long-grain parboiled rice, veggie stock, oil, onion, bell pepper, garlic, jalapeño, beans, cumin powder, chili powder, salt, pepper, cilantro",
+"info" : {},
+"description" : "A vegan-friendly meal"
 },
 {"name": "Rice and Beans",
 "img": "./img/meals/riceandbeans.jpg",
-"ingredients" : "",
-"info" : {}
+"ingredients" : "Long-grain parboiled rice, veggie stock, oil, onion, bell pepper, garlic, jalapeño, beans, cumin powder, chili powder, salt, pepper, cilantro",
+"info" : {},
+"description" : "A vegan-friendly meal"
 }
+
 ]
