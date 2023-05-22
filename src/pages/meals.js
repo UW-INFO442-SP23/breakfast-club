@@ -44,11 +44,10 @@ export default function Meals(props) {
              <div className="overlay">
                 <div className="popup">
                     <div className="popupContent">
-                        <h2>Nutritional Information</h2>
+                        <h2>{selectedMeal.name}</h2>
                         <div className="popup-container">
                             <div className="popup-left"> 
                                 <div className="popup-card">
-                                    <p className="meal-title">{selectedMeal.name}</p>
                                     <img src={selectedMeal.img} alt={selectedMeal.name}></img>
                                     <p>{selectedMeal.description}</p>
                                 </div>
