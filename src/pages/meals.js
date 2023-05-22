@@ -55,7 +55,7 @@ export default function Meals(props) {
                             </div>
                         
                             <div className="label">
-                                <img src="img/meals/blankLabel.jpg"/>
+                                <img src={selectedMeal.info} alt={selectedMeal.name}/>
                             </div>
                         </div>
                      <button className="close-button" onClick={() => togglePopup(null)}>Close</button>
