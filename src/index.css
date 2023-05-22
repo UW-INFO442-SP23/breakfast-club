@@ -204,13 +204,46 @@ h1 {
 }
 
 /***************** home page ***************/
+
+/* home page left align section */
+
+.h1HomeHeaderLeft {
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-family: 'Montserrat';
+  font-size: 2.8em;
+}
+
+.h1HomeHeaderLeftAlign {
+  text-align: left
+}
+
+.pHomeLeft {
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+}
+
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+/* home page rest of section */
+
 .h1HomeHeader {
   text-align: center;
   margin-top: 5%;
   margin-left: 20%;
   margin-right: 20%;
   font-family: 'Montserrat';
-  font-size: 48px;
+  font-size: 2.8em;
 }
 
 .h1Home {
@@ -219,7 +252,7 @@ h1 {
   margin-left: 20%;
   margin-right: 20%;
   font-family: 'Montserrat';
-  font-size: 48px;
+  font-size: 2.8em;
 }
 
 .h1HomeFinal {
@@ -229,7 +262,7 @@ h1 {
   margin-left: 20%;
   margin-right: 20%;
   font-family: 'Montserrat';
-  font-size: 48px;
+  font-size: 2.8em;
   text-decoration: underline;
   color:black
 }
@@ -240,7 +273,7 @@ h1 {
   margin-left: 20%;
   margin-right: 20%;
   font-family: 'Montserrat';
-  font-size: 26px;
+  font-size: 1.8em;
 }
 
 .pHome {
@@ -249,7 +282,7 @@ h1 {
   margin-left: 20%;
   margin-right: 20%;
   font-family: 'Montserrat';
-  font-size: 26px;
+  font-size: 1.2em;
 }
 
 .pHomeCenter {
