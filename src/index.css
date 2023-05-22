@@ -128,7 +128,14 @@ h1 {
   justify-self: center;
 }
 
+<<<<<<< Updated upstream
 /************* Food Catalog Page *************/
+=======
+/* 404 Page */
+
+
+/* Food Catalog Page*/
+>>>>>>> Stashed changes
 .catalog{
   font-family: 'Montserrat';
   text-align: center;
@@ -481,3 +488,82 @@ body {
   width: 100%
 }
 */
+
+/* Guidelines */
+.dgadiv, .nutrientsdiv {
+  display: flex;
+  align-items: center;
+}
+
+.dgaimg, .carbsimg {
+  max-width: 50%;
+}
+
+.dgatextcontainer {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.fattextcontainer {
+  display: flex;
+  flex-direction: column;
+
+}
+/* .fattextcontainer p {
+  text-align: left;
+} */
+
+.fatdescr {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.fatdescr img {
+  max-width: 10%;
+}
+
+.dgadescr {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nutrheading {
+  text-align: center;
+}
+
+.prottextcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.protimgcontainer {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.protimg {
+  max-width: 50%;
+}
+
+.prottextcontainer img {
+  max-width: 10%;
+}
+
+.prottextcontainer p {
+  flex-grow: 1;
+}
+
+
+.nutrdescr, .fatdescr {
+  margin: 0;
+  text-align: center;
+  /* font-weight: bold; */
+}
+
+
+/*
+.compimg, .incompimg {
+  max-width: 10%;
+} */
