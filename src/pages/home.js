@@ -6,7 +6,7 @@ export default function Home(props) {
     return(
 
   <section id="top-home-section" className="">
-    <img src="/img/homebackground.png" className="img-fluid" alt="Responsive image"></img>
+    <img src="./img/homebackground.png" className="img-fluid" alt="Responsive image"></img>
     <div id="top-home-container" className="container">
     <div className="">
       
