@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "./breakfast-club/static/css/main.051b908e.css",
-    "main.js": "./breakfast-club/static/js/main.36a6774a.js",
+    "main.css": "/breakfast-club/static/css/main.051b908e.css",
+    "main.js": "/breakfast-club/static/js/main.36a6774a.js",
     "index.html": "./breakfast-club/index.html",
-    "main.051b908e.css.map": "./breakfast-club/static/css/main.051b908e.css.map",
-    "main.36a6774a.js.map": "./breakfast-club/static/js/main.36a6774a.js.map"
+    "main.051b908e.css.map": "/breakfast-club/static/css/main.051b908e.css.map",
+    "main.36a6774a.js.map": "/breakfast-club/static/js/main.36a6774a.js.map"
   },
   "entrypoints": [
     "static/css/main.051b908e.css",
