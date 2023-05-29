@@ -519,103 +519,136 @@ body {
 */
 
 /* Guidelines */
-.guidelines{
-  font-family: 'Montserrat';
+.fatsheading, .carbsheading, .protheading {
+  text-align: center;
+  color: gray;
 }
 
-.guidelines h1{
-  font-weight: bolder;
-}
-
-.dgadiv, .nutrientsdiv, .protdiv {
+.dgadiv {
   display: flex;
   align-items: center;
-  margin: 50px;
+  padding: 50px;
 }
 
-.dgaimg, .carbsimg, .protimg {
+.nutrientsdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.protdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.carbsdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
+}
+
+.fatsdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* padding-top: 50px; */
+}
+
+.dgaimg {
   max-width: 50%;
 }
 
+.protimg {
+  max-width: 70%;
+}
 
+.whycarbsimg {
+  max-width: 40%;
+}
 
-.dgatextcontainer, .prottextcontainer {
+.carbsimg {
+  max-width: 80%;
+}
+
+.dgatextcontainer {
   flex-grow: 1;
   display: flex;
   align-items: center;
-  margin: 10em;
 }
 
-.dgadescr, .protdescr {
-  margin: 0;
-  text-align: center;
-  font-weight: bold;
-  font-size: 2em;
+.prottextcontainer {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
 }
 
-#videoheading{
-  text-align: center;
-  margin: 1% 15%;
-  font-size: 1em;
+.carbstextcontainer {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
 }
 
 .fattextcontainer {
+  flex-grow: 1;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+}
 
+.protheading {
+  margin-left: 25vh;
+}
+
+.dgadescr {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.protdescr {
+  padding: 10px;
+}
+
+
+.fatblurb {
+  max-width: 60%;
+  float: right;
+}
+
+
+.fatsindiet {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .fatdescr {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.fatdescr img {
-  max-width: 10%;
+  padding: 10px;
+  text-align: center;
 }
 
 
 .nutrheading {
   text-align: center;
-  font-weight: bolder;
-  font-size: 1.5em;
-}
-
-.videodiv{
-  display: flex;
-  justify-content: center;
-}
-
-.videodiv iframe{
-  width: 50%;
-  height: 25em;
 }
 
 
-/* .protimgcontainer {
-  flex-shrink: 0;
-  margin-right: 10px;
-} */
-
-
-
-/* .prottextcontainer img {
-  max-width: 10%;
-}
-
-.prottextcontainer p {
-  flex-grow: 1;
-} */
-
-
-.nutrdescr, .fatdescr {
-  margin: 0;
-  text-align: center;
-  /* font-weight: bold; */
-}
-
-
-/*
 .compimg, .incompimg {
-  max-width: 10%;
-} */
+  max-width: 30%;
+}
+
+.heathfats, .satfats, .transfats {
+  max-width: 30%;
+}
+
+.fatsindiet {
+  max-width: 100%;
+}
