@@ -12,7 +12,7 @@ export default function NotFound(props) {
         </div>
       </div>
       <div className="soup_container">
-        <img src='/img/soup.png' className='soup_image' alt='Warm bowl of Soup'></img>
+        <img src='./breakfast-club/img/soup.png' className='soup_image' alt='Warm bowl of Soup'></img>
         <div className='soup_subcontainer'>
           <div className='soup_text'><p>But here’s a warm bowl of soup</p></div>
           <div>

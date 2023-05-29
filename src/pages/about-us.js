@@ -30,7 +30,7 @@ export default function AboutUs(props) {
             </div>
             <div className="row">
                 <div className="col-md-4 text-center">
-                <img className="img-fluid qualities-img p-4" src="img/kenny.png" alt="Kenny Pham"></img>
+                <img className="img-fluid qualities-img p-4" src="./breakfast-club/img/kenny.png" alt="Kenny Pham"></img>
                 <h5>
                     {/* position */}
                 </h5>
@@ -40,7 +40,7 @@ export default function AboutUs(props) {
         
                 </div>
                 <div className="col-md-4 text-center">
-                <img className="img-fluid qualities-img p-4" src="img/aman.png" alt="Aman Brar"></img>
+                <img className="img-fluid qualities-img p-4" src="./breakfast-club/img/aman.png" alt="Aman Brar"></img>
                 <h5>
                     {/* position */}
                 </h5>
@@ -51,7 +51,7 @@ export default function AboutUs(props) {
                 </div>
                 <div className="col-md-4 text-center">
                     
-                    <img className="img-fluid qualities-img p-4" src="img/cheryl.png" alt="Cheryl Feng"></img>
+                    <img className="img-fluid qualities-img p-4" src="./breakfast-club/img/cheryl.png" alt="Cheryl Feng"></img>
                     <h5>
                     {/* position */}
                     </h5>
@@ -63,7 +63,7 @@ export default function AboutUs(props) {
         
             <div className="row mb-md-3">
                 <div className="col-md-4 text-center">
-                    <img className="img-fluid qualities-img p-4" src="img/jenny.png" alt="Yawen (Jenny) Guo"></img>
+                    <img className="img-fluid qualities-img p-4" src="./breakfast-club/img/jenny.png" alt="Yawen (Jenny) Guo"></img>
                     <h5>
                     {/* position */}
                     </h5>
@@ -72,7 +72,7 @@ export default function AboutUs(props) {
                     </p>
                 </div>
                 <div className="col-md-4 text-center">
-                    <img className="img-fluid qualities-img p-4" src="img/travon.png" alt="Travon Dao"></img>
+                    <img className="img-fluid qualities-img p-4" src="./breakfast-club/img/travon.png" alt="Travon Dao"></img>
                     <h5>
                     {/* position */}
                     </h5>
@@ -81,7 +81,7 @@ export default function AboutUs(props) {
                     </p>
                 </div>
                 <div className="col-md-4 text-center">
-                    <img className="img-fluid qualities-img p-4" src="img/aboutfiller.png" alt="Team Logo"></img>
+                    <img className="img-fluid qualities-img p-4" src="./breakfast-club/img/aboutfiller.png" alt="Team Logo"></img>
                     <h5>
                     {/* position */}
                     </h5>

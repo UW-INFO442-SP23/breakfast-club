@@ -6,10 +6,29 @@ export default function Home(props) {
     return(
 
   <section id="top-home-section" className="">
-    <img src="/img/homebackground.png" className="img-fluid" alt="Responsive image"></img>
+    {/* <img src="/breakfast-club/img/homebackground.png" className="img-fluid" alt="Responsive image"></img> */}
     <div id="top-home-container" className="container">
     <div className="">
-      
+
+    <br></br>
+    <br></br>
+    <br></br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1 class="h1HomeHeaderLeft"><strong>Nutritional Information for King County Food Pantries</strong></h1>
+          <h2 class="pHomeLeft">Our most vulnerable populations in King County need more nutritious meals. We're here to help your
+          food pantry provide food and meals that will keep your community healthy.</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="/breakfast-club/img/homepagecans.png" class="img-fluid animated" alt=""></img>
+        </div>
+      </div>
+    </div>
+
       {/* <div class="h1HomeHeader">
         <h1>Nutritional Information for King County Food Pantries</h1>
       </div>
@@ -20,35 +39,19 @@ export default function Home(props) {
         We’re here to help your food pantry provide food and meals that will keep our communities healthy.
         </p>
       </div> */}
-
+        
       <div className="h1Home">
-        <p>
-        Let’s talk nutrition.
-        </p>
+        <p><strong>Let’s talk nutrition.</strong></p>
       </div>
 
       <div className="pHome">
         <p>
-        To many in King County, food pantries are the only source of consistent food. 
-        </p>
-      </div>
-
-      <div className="pHome">
-        <p>
-        Additionally...
-        </p>
-      </div>
-
-      <div className="pHome">
-        <p>
-        There is a lack of alignment in how the charitable food system
-        defines and tracks the nutritional quality of food.
+        To many in King County, food pantries are the only source of consistent food. Additionally, there is a lack of alignment in how the charitable food system defines and tracks the nutritional quality of food.
         </p>
       </div>
 
       <div className="h1Home">
-        <p>
-        We’re here to help bridge the gap.
+        <p><strong>We’re here to help bridge the gap.</strong>
         </p>
       </div>
 
@@ -62,20 +65,20 @@ export default function Home(props) {
 
     <div className="card-group">
   <div className="card">
-    <img className="card-img-top" src="/img/homecard1.png" alt="Card image cap"></img>
+    <img className="card-img-top" src="/breakfast-club/img/homecard1.png" alt="Card image cap"></img>
     <div className="card-body">
       <h5 className="card-title pHomeCenter">View Nutrition</h5>
       <p className="card-text">View nutritional information of common King County food pantry items.</p>
     </div>
   </div>
   <div className="card">
-  <img className="card-img-top" src="/img/homecard2.png" alt="Card image cap"></img>    <div className="card-body">
+  <img className="card-img-top" src="/breakfast-club/img/homecard2.png" alt="Card image cap"></img>    <div className="card-body">
       <h5 className="card-title pHomeCenter">Get Meal Inspiration</h5>
       <p className="card-text">Think about the next healthy meal you’ll provide at your food pantry, made with common items.</p>
     </div>
   </div>
   <div className="card">
-  <img className="card-img-top" src="/img/homecard3.png" alt="Card image cap"></img>    <div className="card-body">
+  <img className="card-img-top" src="/breakfast-club/img/homecard3.png" alt="Card image cap"></img>    <div className="card-body">
       <h5 className="card-title pHomeCenter">Learn More</h5>
       <p className="card-text">Learn about calores, macronutrients, nutrition facts, and more from the FDA!</p>
     </div>
@@ -84,7 +87,7 @@ export default function Home(props) {
 
 <div className="h1HomeFinal">
     <p>
-    <Link to="/Catalog" className="home-final-sentence">Let's feed King County.</Link>
+    <Link to="/catalog" className="home-final-sentence"><strong>Let's feed King County.</strong></Link>
     </p>
 </div>
 
