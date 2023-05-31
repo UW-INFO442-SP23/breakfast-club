@@ -102,14 +102,11 @@ h1 {
 
 
 @media (max-width: 530px) {
-  .imgDiv {
-    display: none;
-  }
+
 
   .footerLinks {
     position: relative;
-    right: 15px;
-    margin-left: 0px;
+    margin-left: 20px;
   }
 }
 
@@ -801,14 +798,4 @@ body {
 .card-img-top {
   width: 100%;
   display: flex;
-}
-
-@media (max-width: 550) {
-  .footerLinks col-3{
-    width: 1000px;
-  }
-
- .footerlogo {
-    width: 2px;
-  }
 }
