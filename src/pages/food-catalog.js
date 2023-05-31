@@ -55,8 +55,8 @@ function FoodCatalog(props) {
     <div className="catalog">
       <h2>Food Catalog</h2>
       <h3 id="catalogDesc">Use the filter to navigate through the foods catered to your nutritional needs!</h3>
-      <div className='catalog-content'>
-        <div id="filter-box">
+      <section className='catalog-content'>
+        <section id="filter-box">
             <h4>Macronutrient Source:</h4>
             <label>
             <input
@@ -156,8 +156,8 @@ function FoodCatalog(props) {
             />
             Canned
             </label>
-        </div>
-        <div className="card-deck">
+        </section>
+        <section className="card-deck">
           {filteredFoods.length > 0 ? (
               filteredFoods.map((arrayItem) => (
                 <FoodCard foods={arrayItem} key={arrayItem.name} />
@@ -165,8 +165,8 @@ function FoodCatalog(props) {
             ) : (
               <p id="noResults">No results found.</p>
             )}
-        </div>
-    </div>
+        </section>
+    </section>
     </div>
   );
 }

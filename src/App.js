@@ -15,16 +15,20 @@ export default function App(props) {
     return (
         <div>
             <Router>
-                <Navbar/>
+                <header>
+                    <Navbar/>
+                </header>
                 <Routes>
-                    <Route path="/breakfast-club" element={<Home/>} />
-                    <Route path="/about" element={<AboutUs />} />
-                    <Route path="/catalog" element={<FoodCatalog foods = {foods}/>} />
-                    <Route path="/meals" element={<Meals/>} />
-                    <Route path="/guidelines" element={<Guidelines />} />
-                    <Route path="/404" element={<NotFound/>} />
+                        <Route path="/breakfast-club" element={<Home/>} />
+                        <Route path="/about" element={<AboutUs />} />
+                        <Route path="/catalog" element={<FoodCatalog foods = {foods}/>} />
+                        <Route path="/meals" element={<Meals/>} />
+                        <Route path="/guidelines" element={<Guidelines />} />
+                        <Route path="/404" element={<NotFound/>} />
                 </Routes>
-                <Footer/>
+                <footer>
+                    <Footer/>
+                </footer>
             </Router>
         </div>
     );
