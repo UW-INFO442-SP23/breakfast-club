@@ -21,7 +21,7 @@ Throughout the first ten months of 2022, the number of King County families visi
 
 
 # GitHub Pages
-The published site can be viewed here: 
+The published site can be viewed here: https://uw-info442-sp23.github.io/breakfast-club/
 
 ## Group Members
 * Aman Brar
