@@ -43,27 +43,28 @@ export default function Meals(props) {
             {popup &&
              <div className="overlay">
                 <div className="popup">
+                <button className="close-button" onClick={() => togglePopup(null)}><i class="fas fa-times"></i></button>
+                <h2>{selectedMeal.name}</h2>
                     <div className="popupContent">
-                        <h2>{selectedMeal.name}</h2>
                         <div className="popup-container">
                             <div className="popup-left"> 
                                 <div className="popup-card">
                                     <img src={selectedMeal.img} alt={selectedMeal.name}></img>
-                                    <p>{selectedMeal.description}</p>
+                                    <p className='popup-card-description'>{selectedMeal.description}</p>
                                 </div>
-                                <p><strong>Ingredients: </strong>{selectedMeal.ingredients}</p>
+                              
                             </div>
                         
                             <div className="label">
                                 <img src={selectedMeal.info} alt={selectedMeal.name}/>
                             </div>
+                            
                         </div>
-                     <button className="close-button" onClick={() => togglePopup(null)}>Close</button>
+                        <p className='ingredients'><strong>Ingredients: </strong>{selectedMeal.ingredients}</p>
                  </div>
+                
                 </div>
             </div>
-            
-            
             }
 
         </div>
