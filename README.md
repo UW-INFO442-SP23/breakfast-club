@@ -59,6 +59,7 @@ The two user personas we used when designing our product can be found [here](htt
 | Unexpected Results | They can’t find the items they are looking for or experience difficulty navigating this feature. No information and text stating "No results found." is displayed to remind users that there are no foods tbat fall into the selected requirements. | They do not know what to do once they view meals/food items or they find this feature unintuitive. |
 
 * A bug we have identified, but have not been able to resolve, is that when you navigate to a page, that is not the home page, and try to refresh your browser GitHub pages will yield a 404 saying "There isn't a GitHub Pages site here." To work around this, either don't refresh or navigate back to the homepage url if you encounter a 404 page.
+* As a result of the issue above, when you click the "Let's Feed King County" link on the bottom of the Home page it will take you to the bottom of the Catalog page. To work around this inconvenience, click the link and scroll to the top or navigate to the catalog from the nav bar.
 
 # References
 All images used in this project were retained from [Unsplash](https://unsplash.com) or retrived from Google Images with a free Creative Commons License.
