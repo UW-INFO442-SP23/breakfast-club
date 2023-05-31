@@ -47,6 +47,10 @@ The two user personas we used when designing our product can be found [here](htt
 A bug we have identified, but have not been able to resolve, is that when you navigate to a page, that is not the home page, and try to refresh your browser GitHub pages will yield a 404 saying "There isn't a GitHub Pages site here." 
 
 # References
+All images used in this project were retained from [Unsplash](https://unsplash.com) or retrived from Google Images with a free Creative Commons License.
+
+List of foods used in our website comes from a list of acceptable food that can be donated as outline by the [University District Food Bank](https://www.udistrictfoodbank.org/involved/food-drive/)
+
 King County (2023). King County Food Insecurity Screening Community of Practice. Retrieved April 4, 2023, from https://kingcounty.gov/depts/health/heal/learning-network.aspx
  
 United Nations (n.d.). Sustainable Development Goals - Goal 2: Zero Hunger. Retrieved April 4, 2023, from https://www.un.org/sustainabledevelopment/hunger/
