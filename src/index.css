@@ -586,7 +586,7 @@ h1 {
 }
 
 .close-button i {
-  color: black;
+  color: #333333;
   font-size: 25px;
 }
 
@@ -612,9 +612,19 @@ h1 {
 
 .popup-card {
   background-color: #98C9A3;
-  height: 60%;
-  width: 90%;
+  height: 70%;
+  width: 95%;
   border-radius: 15px;
+}
+
+.popup-left {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.label {
+  width: 50%;
+  margin-bottom: 10px;
 }
 
 
@@ -899,7 +909,7 @@ body {
   text-align: center;
   font-family: 'Montserrat';
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 
