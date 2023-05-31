@@ -343,9 +343,6 @@ h1 {
   justify-self: center;
 }
 
-/* 404 Page */
-
-
 /* Food Catalog Page*/
 .catalog{
   font-family: 'Montserrat';
@@ -358,7 +355,7 @@ h1 {
   text-align: center;
 }
 
-.catalog h3{
+#catalogDesc{
   font-size:1.75em;
   margin-bottom: 1.5em;
   text-align: center;
@@ -367,7 +364,6 @@ h1 {
 .catalog h4{
   font-size:1.125em;
   font-weight:bold;
-  text-align: center;
 }
 
 .card{
@@ -431,6 +427,50 @@ h1 {
   align-items: center;
   margin-left: 10%;
 }
+
+@media(max-width: 769px) {
+  .card{
+    width: 10rem;
+    margin: .5em;
+    height: fit-content;
+    border-radius: 5px;
+  }
+
+  .catalog h2{
+    font-size: 1.5em;
+  }
+  #catalogDesc{
+    font-size: 1em;
+  }
+
+  #filter-box{
+    max-width: 90%;
+    font-size: .75rem;
+    border-radius: 5px;
+  }
+  
+  .card-title{
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .card-img-bot{
+    height: 10rem;
+  }
+
+  .catalog-content{
+    display: block;
+    align-items: center;
+  }
+
+  #noResults{
+    margin: 0;
+    margin-bottom:55%;
+  }
+}
+
 /***************** home page ***************/
 
 /* home page left align section */
@@ -549,7 +589,7 @@ h1 {
   border-radius: 15px;
 }
 
-.meal-title, .card-title {
+.meal-title .card-title {
   font-weight: bold;
   font-size: 25px;
   font-family: "Montserrat";
@@ -561,9 +601,6 @@ h1 {
   font-family: 'Montserrat';
   font-size: 20px;
 }
-
-
-
 
 .popup-card img {
   display: block;

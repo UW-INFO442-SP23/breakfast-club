@@ -53,8 +53,8 @@ function FoodCatalog(props) {
 
   return (
     <div className="catalog">
-      <h1>Food Catalog</h1>
-      <h3>Use the filter to navigate through the foods catered to your nutritional needs!</h3>
+      <h2>Food Catalog</h2>
+      <h3 id="catalogDesc">Use the filter to navigate through the foods catered to your nutritional needs!</h3>
       <div className='catalog-content'>
         <div id="filter-box">
             <h4>Macronutrient Source:</h4>
