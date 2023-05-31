@@ -607,6 +607,7 @@ h1 {
 
 .popup-left {
   width: 50%;
+
 }
 
 
@@ -619,12 +620,10 @@ h1 {
 
 .popup-left {
   width: 50%;
-  margin-bottom: 10px;
 }
 
 .label {
   width: 50%;
-  margin-bottom: 10px;
 }
 
 
@@ -695,6 +694,7 @@ h1 {
   font-family: "Montserrat";
   font-size: 18px;
   top: -90px;
+  margin-top: 20px;
 }
 
 
@@ -908,14 +908,22 @@ body {
   text-align: center;
   font-family: 'Montserrat';
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
 
 @media (max-width: 500px) {
-  .popup-card-description {
-    font-size: 12px;
+  .popup-card .popup-card-description {
+    font-size: 15px;
+  }
+}
+
+
+
+@media (min-width: 1000px) {
+  .ingredients {
+    margin-top: -50px;
   }
 }
 

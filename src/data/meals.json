@@ -27,13 +27,13 @@
 "img": "./breakfast-club/img/meals/breakfast-burrito.jpg",
 "ingredients" : "1 avocado, 1/2 cup diced tomatoes, 2 tbsp minced shallot, 1 clove  garlic, 1 jalapeño pepper, 1 tbsp lime juice, 1/2 tsp salt, 1/4 tsp ground cumin, 1/4 cup chopped cilantro, 4 eggs, 1/4 tsp smoked paprika, 1/4 tsp salt, 1/2 lb spicy sausage, 6 oz shredded Monterey jack cheese, flour tortillas, vegetable oil",
 "info" : "./breakfast-club/img/meals/burritoinfo.jpg",
-"description" : "Simple with protein and carbs"
+"description" : "Simple with protein & carbs"
 },
 {"name": "Chicken Casserole",
 "img": "./breakfast-club/img/meals/chicken-casserole.jpg",
 "ingredients" : "chicken, cream cheese, cottage cheese, sour cream, condensed cream of chicken soup, garlic powder, onion powder, ritz crackers, unsalted butter",
 "info" : "./breakfast-club/img/meals/casseroleinfo.jpg",
-"description" : "Balance of protein and carbs"
+"description" : "Balance of protein & carbs"
 },
 {"name": "Protein Parfait",
 "img": "./breakfast-club/img/meals/parfait.jpg",
