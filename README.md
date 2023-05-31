@@ -30,6 +30,8 @@ The published site can be viewed here:
 * Yawen (Jenny) Guo
 * Kenny Pham
 
+# User Persona:
+The two user personas we used when designing our product can be found [here](https://github.com/UW-INFO442-SP23/breakfast-club/blob/main/NourishedKingsPersonas.pdf).
 # Development Instructions
 
 # References
