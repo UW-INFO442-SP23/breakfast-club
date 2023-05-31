@@ -55,3 +55,10 @@ King County (2023). King County Food Insecurity Screening Community of Practice.
  
 United Nations (n.d.). Sustainable Development Goals - Goal 2: Zero Hunger. Retrieved April 4, 2023, from https://www.un.org/sustainabledevelopment/hunger/
 
+Current dietary guidelines. Infographics | Dietary Guidelines for Americans. (n.d.). https://www.dietaryguidelines.gov/figures-infographics/infographics 
+
+Bramlet, K. (2015, September 9). Protein 101. MD Anderson Cancer Center. https://www.mdanderson.org/publications/focused-on-health/FOH-protein-101.h18-1589835.html 
+
+Bramlet, K. (2019, August 14). Carbs 101. MD Anderson Cancer Center. https://www.mdanderson.org/publications/focused-on-health/carbs-101.h28Z1590624.html 
+
+Bramlet, K. (2015, September 9). Protein 101. MD Anderson Cancer Center. https://www.mdanderson.org/publications/focused-on-health/FOH-protein-101.h18-1589835.html 
