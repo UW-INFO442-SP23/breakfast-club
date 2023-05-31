@@ -243,6 +243,8 @@ h1 {
     margin: 0;
     margin-bottom:55%;
   }
+
+  
 }
 
 /***************** home page ***************/
@@ -759,6 +761,68 @@ body {
   max-width: 30%;
 }
 
+@media(max-width: 768px) {
+  #videoDesc{
+    margin:0;
+    padding:1rem;
+    font-size: 1rem;
+  }
+
+  .dgadiv{
+    display: block;
+  }
+  .dgaimg{
+    min-width: 100%;
+  }
+
+  .dgadescr{
+    margin: 0;
+  }
+
+  .protdiv{
+    display: block;
+    padding: 0;
+  }
+
+  .protimg{
+    min-width: 100%;
+  }
+
+  .carbsdiv{
+    display: block;
+  }
+  
+  .whycarbsimg{
+    min-width: 90%;
+  }
+
+  .carbsimg{
+    min-width: 100%;
+  }
+  
+  .fatsdiv{
+    display: block;
+  }
+
+  .fatdescr{
+    margin:1rem;
+  }
+
+  #fatTitle{
+    font-size: 1.5rem;
+  }
+
+  .fatFunction{
+    margin:0;
+    padding:0;
+    min-width: 100%;
+  }
+
+  .fatsindietdiv{
+    display: none;
+  }
+}
+
 .heathfats, .satfats, .transfats {
   max-width: 30%;
 }
@@ -775,12 +839,6 @@ body {
   font-size: 20px;
 }
 
-
-@media (max-width: 710px) {
-  .heathfats, .satfats, .transfats {
-    display: none;
-  }
-}
 
 
 @media (max-width: 500px) {
