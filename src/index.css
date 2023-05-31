@@ -8,7 +8,7 @@ html,body {
 
 /************* navbar *************/
 .nav-elements {
-  z-index: 999;
+  z-index: 9999;
 }
 
 /************* footer *************/
