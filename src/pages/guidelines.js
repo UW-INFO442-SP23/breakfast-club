@@ -98,13 +98,13 @@ export default function Guidelines(props) {
             </div>
 
             <div>
-              <img className='fatblurb' src='./breakfast-club/img/fatblurb.png'></img>
+              <img className='fatblurb' src='./breakfast-club/img/fatblurb.png' alt="fat information"></img>
             </div>
 
           </div>
 
           <div className='fatsindietdiv'>
-              <img className='fatsindiet' src='./breakfast-club/img/fatsdiet.png'></img>
+              <img className='fatsindiet' src='./breakfast-club/img/fatsdiet.png' alt="fats recommendations"></img>
           </div>
 
         </div>
