@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/breakfast-club/static/css/main.e157598f.css",
-    "main.js": "/breakfast-club/static/js/main.c38020ba.js",
+    "main.css": "/breakfast-club/static/css/main.4591fce1.css",
+    "main.js": "/breakfast-club/static/js/main.9b671924.js",
     "static/media/breakfastclublogo.svg": "/breakfast-club/static/media/breakfastclublogo.79b68fd7ef3fa9f4e4c5cb37b03aeb62.svg",
     "index.html": "/breakfast-club/index.html",
     "static/media/icons8-hamburger-menu-50.svg": "/breakfast-club/static/media/icons8-hamburger-menu-50.58321db38db13fc244b0a31cc21c5812.svg",
-    "main.e157598f.css.map": "/breakfast-club/static/css/main.e157598f.css.map",
-    "main.c38020ba.js.map": "/breakfast-club/static/js/main.c38020ba.js.map"
+    "main.4591fce1.css.map": "/breakfast-club/static/css/main.4591fce1.css.map",
+    "main.9b671924.js.map": "/breakfast-club/static/js/main.9b671924.js.map"
   },
   "entrypoints": [
-    "static/css/main.e157598f.css",
-    "static/js/main.c38020ba.js"
+    "static/css/main.4591fce1.css",
+    "static/js/main.9b671924.js"
   ]
 }
