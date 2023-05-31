@@ -43,6 +43,8 @@
 }
 
 
+
+
 @media (max-width: 1000px) {
   .navbar-container {
     background-color: #F7934C;
@@ -53,6 +55,7 @@
     width: 100%;
     /*border-bottom: 2px black solid; */
   }
+
 
   .topNav {
     margin-right: 25px;
@@ -331,7 +334,8 @@ h1 {
 
 .paragraphDiv {
   margin: auto;
-  width: 550px;
+  font-size: 18px;
+  width: 75%;
 }
 
 .paragraphDiv p {
@@ -536,6 +540,7 @@ h1 {
   margin: 10px;
 }
 
+
 .meal-card img {
   width: 200px;
   height: 200px;
@@ -590,6 +595,21 @@ h1 {
   position: relative;
   margin-top: 20px;
   left: 510px;
+}
+
+@media (max-width: 540px) {
+  .meal-card {
+    width: 400px;
+  }
+  .meal-card img {
+    position: relative;
+    left: -75px;
+  }
+  .meal-card button {
+    position: relative;
+    right: -110px;
+    bottom: 125px;
+  }
 }
 
 .close-button:hover {
