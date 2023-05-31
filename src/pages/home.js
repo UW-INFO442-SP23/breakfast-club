@@ -87,7 +87,7 @@ export default function HomeVN(props) {
 
 <div className="h1HomeFinal">
     <p>
-    <a className="home-final-sentence" href="/catalog"><strong>Let's feed King County.</strong></a>
+      <Link to="/catalog" className="home-final-sentence"><strong>Let's Feed King County.</strong></Link>
     </p>
 </div>
 
