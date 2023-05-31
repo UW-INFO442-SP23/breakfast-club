@@ -284,9 +284,10 @@
 }
 
 .logo {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   margin: auto;
+  margin-left: 40px;
 }
 
 .footerLinks ul {
@@ -603,6 +604,11 @@ h1 {
     right: -110px;
     bottom: 125px;
   }
+  .logo {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+  }
 }
 
 .popup-left {
@@ -610,7 +616,9 @@ h1 {
 
 }
 
-
+.footerLinks .footerList {
+  margin-left: 20px;
+}
 .popup-card {
   background-color: #98C9A3;
   height: 70%;
