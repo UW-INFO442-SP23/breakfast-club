@@ -19,7 +19,7 @@ export default function MealsVN(props) {
                 <img src={props.info.img} alt={props.info.name}></img>
                 <div className="button-div">
                     <button onClick={() => togglePopup(props.info)}>
-                    <span className="button-text">See Details</span>
+                    <span className="button-text">Xem chi tiết</span>
                     </button>
                 </div>
             </div>

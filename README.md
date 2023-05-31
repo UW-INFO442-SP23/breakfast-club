@@ -21,7 +21,7 @@ Throughout the first ten months of 2022, the number of King County families visi
 
 
 # GitHub Pages
-The published site can be viewed here: 
+The published site can be viewed here: https://uw-info442-sp23.github.io/breakfast-club/
 
 ## Group Members
 * Aman Brar
@@ -30,6 +30,8 @@ The published site can be viewed here:
 * Yawen (Jenny) Guo
 * Kenny Pham
 
+# User Persona:
+The two user personas we used when designing our product can be found [here](https://github.com/UW-INFO442-SP23/breakfast-club/blob/main/NourishedKingsPersonas.pdf).
 # Development Instructions
 
 # References
