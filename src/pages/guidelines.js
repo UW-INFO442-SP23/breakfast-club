@@ -81,27 +81,28 @@ export default function Guidelines(props) {
             <div className='fattextcontainer'>
               <div className='fatdescr'>
               <b id="fatTitle">Healthy vs unhealthy fats</b><br></br>
+              <b>Healthy fats</b>
                 <div id="healthFat">
-                  <b>Healthy fats</b>
-                  <br></br>
                   <p>Salmon, Tuna, olives, olive oil, avocados, nuts and seeds</p>
                   <img className='heathfats' src='./breakfast-club/img/healthyfats.png' alt='Examples of Healthy fats'></img>
                 </div>
+                <b>Unhealthy saturated fats</b>
                 <div id="unhealthyFat">
-                  <b>Unhealthy saturated fats</b>
                   <p>red meat, dairy products (cheese, butter, ice cream)</p>
                   <img className='satfats' src='./breakfast-club/img/unheatfats.png' alt='Examples of Unheathly saturated fats'></img>
                   </div>
-                <div id="transFat">
                   <b>Trans fats</b>
+                <div id="transFat">
                   <p>Fried and Fast food and processed foods (crackers, chips, and cookies)</p>
                   <img className='transfats' src='./breakfast-club/img/transfat.png' alt='Examples of Trans fats'></img>
                 </div>
               </div>
             </div>
 
-            <div>
-              <img className='fatblurb' src='./breakfast-club/img/fatblurb.png' alt="fat information"></img>
+            <div className="fatFunction">
+              <b id="badRap">Fat Gets a Bad Rap</b><br></br>
+              <p>Fat should make up 20-35% of your daily calories</p><br></br>
+              <p>“Dietary fats give you energy, support cell function and help your body absorb nutrients from vegetables, fruits and other foods” -Erma Levy (research dietitian)</p>
             </div>
 
           </div>

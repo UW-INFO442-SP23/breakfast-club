@@ -686,15 +686,24 @@ body {
 }
 
 
-.fatblurb {
-  max-width: 60%;
-  float: right;
+.fatFunction {
+  max-width: 50%;
+  margin:0;
+  text-align: center;
+  padding: 0 10%;
+  font-size: 1.25rem;
 }
 
 
 .fatsindiet {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+#badRap{
+  color:#98C9A3;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .fatdescr {
@@ -715,7 +724,7 @@ body {
   font-weight:normal;
 }
 
-#healthFat{
+#healthFat, #unhealthyFat, #transFat{
   display: flex;
 }
 
@@ -729,6 +738,7 @@ body {
 
 .fatsindiet {
   max-width: 100%;
+  margin: 5% 0%;
 }
 
 .popup-card .popup-card-description {

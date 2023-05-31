@@ -77,37 +77,39 @@ export default function Guidelines(props) {
 
           <h3 className='fatsheading'>Mỡ 101</h3>
 
+
           <div className='fatsdiv'>
             <div className='fattextcontainer'>
               <div className='fatdescr'>
-              <b id="fatTitle">Mỡ Lành Mạnh vs Không Lành Mạnh</b><br></br>
+              <b id="fatTitle">Chất béo lành mạnh vs không lành mạnh</b><br></br>
+              <b>chất béo lành mạnh</b>
                 <div id="healthFat">
-                  <b>Khỏe mạnh mỡ</b>
-                  <br></br>
                   <p>Cá hồi, cá ngừ, ô liu, dầu ô liu, bơ, các loại hạt và hạt</p>
                   <img className='heathfats' src='./breakfast-club/img/healthyfats.png' alt='Examples of Healthy fats'></img>
                 </div>
+                <b>Chất béo bão hòa không lành mạnh</b>
                 <div id="unhealthyFat">
-                  <b>Mỡ bão hòa không lành mạnh</b>
-                  <p>red meat, dairy products (cheese, butter, ice cream)</p>
+                  <p>thịt đỏ, các sản phẩm từ sữa (phô mai, bơ, kem)</p>
                   <img className='satfats' src='./breakfast-club/img/unheatfats.png' alt='Examples of Unheathly saturated fats'></img>
                   </div>
+                  <b>Chất béo chuyển hóa</b>
                 <div id="transFat">
-                  <b>Mỡ chuyển hóa</b>
                   <p>Thức ăn chiên và thức ăn nhanh và thực phẩm chế biến (bánh quy giòn, khoai tây chiên và bánh quy)</p>
                   <img className='transfats' src='./breakfast-club/img/transfat.png' alt='Examples of Trans fats'></img>
                 </div>
               </div>
             </div>
 
-            <div>
-              <img className='fatblurb' src='./breakfast-club/img/fatblurb-vn.png' alt="fat information"></img>
+            <div className="fatFunction">
+              <b id="badRap">Chất béo nhận được một rap xấu</b><br></br>
+              <p>Chất béo nên chiếm 20-35% lượng calo hàng ngày của bạn</p><br></br>
+              <p>“Chất béo trong chế độ ăn cung cấp cho bạn năng lượng, hỗ trợ chức năng tế bào và giúp cơ thể bạn hấp thụ chất dinh dưỡng từ rau, trái cây và các thực phẩm khác” -Erma Levy (chuyên gia dinh dưỡng nghiên cứu)</p>
             </div>
 
           </div>
 
           <div className='fatsindietdiv'>
-              <img className='fatsindiet' src='./breakfast-club/img/fatsdiet-vn.png' alt="fats recommendations"></img>
+              <img className='fatsindiet' src='./breakfast-club/img/fatsdiet.png' alt="fats recommendations"></img>
           </div>
 
         </div>
