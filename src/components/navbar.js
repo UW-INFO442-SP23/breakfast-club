@@ -1,37 +1,47 @@
-import React from 'react';
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { useState } from 'react'
+import { NavLink } from 'react-router-dom'
+import { ReactComponent as Brand } from './assets/breakfastclublogo.svg'
+import { ReactComponent as Hamburger } from './assets/icons8-hamburger-menu-50.svg'
+import './navbar.css'
 
-export default function Navbar() {
+const Navbar = () => {
+  const [showNavbar, setShowNavbar] = useState(false)
+
+  const handleShowNavbar = () => {
+    setShowNavbar(!showNavbar)
+  }
 
   return (
-    <div className="navbar-container">
-      <div className="topNav">
-        <img className="logo" src="/breakfast-club/img/icon_vegetables.png" alt="tomato and cucumber logo"></img>
-        <Link to="/breakfast-club" className="site-title">Nourished Kings</Link>
-      </div>
-      <div>
-        <nav className="nav">
+    <nav className="navbar">
+      <div className="container">
+        <div className="logo">
+        <NavLink to="/breakfast-club"><Brand></Brand></NavLink>
+        </div>
+        <div className="menu-icon" onClick={handleShowNavbar}>
+        <Hamburger ></Hamburger>
+        </div>
+        <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
-            <CustomLink to="/breakfast-club">Home</CustomLink>
-            <CustomLink to="/about">About Us</CustomLink>
-            <CustomLink to="/catalog">Food Catalog</CustomLink>
-            <CustomLink to="/meals">Meals</CustomLink>
-            <CustomLink to="/guidelines">Guidelines</CustomLink>
+            <li>
+              <NavLink to="/breakfast-club">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/about">About Us</NavLink>
+            </li>
+            <li>
+              <NavLink to="/catalog">Catalog</NavLink>
+            </li>
+            <li>
+              <NavLink to="/meals">Meals</NavLink>
+            </li>
+            <li>
+              <NavLink to="/guidelines">Guidelines</NavLink>
+            </li>
           </ul>
-        </nav>
+        </div>
       </div>
-    </div>
+    </nav>
   )
 }
 
-export function CustomLink({ to, children, ...props }) {
-  const resolvedPath = useResolvedPath(to)
-  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
-
-  return (
-    <li className={isActive ? "active" : ""}>
-      <Link to={to} {...props}>{children}</Link>
-    </li>
-  )
-}
-
+export default Navbar
