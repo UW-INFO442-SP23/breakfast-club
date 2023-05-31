@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-export default function AboutUs(props) {
+export default function AboutUsVN(props) {
     return (
         <section>
         <div className="translate">
@@ -10,18 +10,18 @@ export default function AboutUs(props) {
                 <Link to="/about-vn" className=""><strong>Tiếng Việt</strong></Link>
             </p>
         </div>
-            <h1>About Us</h1>
+            <h1>Về Chúng Tôi</h1>
             <br></br>
         <div className="paragraphDiv">
-            <p>We’re Team Breakfast Club! For our Spring 2023 INFO 442 project at the University of Washington, we decided to tackle the United Nations’ second sustainable development goal: Zero Hunger.</p>
+            <p>Chúng tôi là Breakfast Club! Đối với dự án INFO 442 vào mùa xuân năm 2023 của chúng tôi tại Đại học Washington, chúng tôi đã quyết định thực hiện mục tiêu phát triển bền vững thứ hai của Liên Hợp Quốc: Không Còn Nạn Đói.</p>
         </div>
 
         <div className="paragraphDiv">
-            <p>We decided to take on this goal at a local level. So we asked: <strong>How might we connect restaurants with food banks to provide the low-income community in King County with access to free, high-quality, healthy food?</strong></p>
+            <p>Chúng tôi quyết định thực hiện mục tiêu này ở cấp địa phương. Vì vậy, chúng tôi đã hỏi: <strong>Làm cách nào chúng ta có thể kết nối các nhà hàng với ngân hàng thực phẩm để cung cấp cho cộng đồng có thu nhập thấp ở King County quyền tiếp cận thực phẩm miễn phí, chất lượng cao và tốt cho sức khỏe?</strong></p>
         </div>
 
         <div className="paragraphDiv">
-            <p>This website is our answer to that question.</p>
+            <p>Trang web này là câu trả lời của chúng tôi cho câu hỏi đó.</p>
         </div>
 
         <div className="pt-3 pb-4">
@@ -29,7 +29,7 @@ export default function AboutUs(props) {
             <div className="row mt-4">
                 <div className="col text-center">
                 <h3>
-                    Meet our team!
+                    Gặp đội của chúng tôi!
                 </h3>
                 </div>
             <br></br>

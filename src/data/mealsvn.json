@@ -1,0 +1,50 @@
+[
+{"name": "Món Hầm Cá Ngừ",
+"img": "./breakfast-club/img/meals/tuna-casserole.jpg",
+"ingredients" : "Mì trứng, bơ, hành tây, cần tây, đậu đông lạnh, cá ngừ, súp nấm đặc, sữa, phô mai cheddar, rau mùi tây, vụn bánh mì panko, phô mai cheddar",
+ "info" : "./breakfast-club/img/meals/tuna-casserole-info.png",
+"description" : "Pescatarian thân thiện"
+},
+{"name": "Gạo Và Đậu",
+"img": "./breakfast-club/img/meals/riceandbeans.jpg",
+"ingredients" : "Gạo đồ hạt dài, nước dùng chay, dầu, hành tây, ớt chuông, tỏi, ớt jalapeño, đậu, bột thìa là, bột ớt, muối, tiêu, ngò",
+"info" : "./breakfast-club/img/meals/ricebeansinfo.jpg",
+"description" : "Thân thiện với người ăn chay"
+},
+{"name": "Cháo Nghêu",
+"img": "./breakfast-club/img/meals/clam-chowder.jpg",
+"ingredients" : "Thịt xông khói cắt miếng dày, hành trắng thái hạt lựu, bột mì đa dụng, nghêu đóng hộp, nước nghêu, khoai tây đỏ, lá nguyệt quế, lá húng tây khô, kem nặng, rau mùi tây tươi băm nhỏ, muối, tiêu đen xay tươi",
+"info" : "./breakfast-club/img/meals/chowderinfo.jpg",
+"description" : "Pescaterian thân thiện"
+},
+{"name": "Phở Gà",
+"img": "./breakfast-club/img/meals/chicken-noodle-soup.jpg",
+"ingredients" : "Bột mì, muối, sữa, trứng, mì ống Farfalle, mì ống khuỷu tay, ức gà, cà rốt, bánh rotini, nước dùng gà",
+"info" : "./breakfast-club/img/meals/chickensoup.jpg",
+"description" : "Chất đạm, chất bột đường & và rau"
+},
+{"name": "Bánh Mì Kẹp Thịt",
+"img": "./breakfast-club/img/meals/breakfast-burrito.jpg",
+"ingredients" : "1 quả bơ, 1/2 chén cà chua thái hạt lựu, 2 muỗng canh hẹ băm nhỏ, 1 nhánh tỏi, 1 quả ớt jalapeño, 1 muỗng canh nước cốt chanh, 1/2 muỗng cà phê muối, 1/4 muỗng cà phê thì là, 1/4 chén rau mùi thái nhỏ, 4 quả trứng , 1/4 muỗng cà phê ớt bột xông khói, 1/4 muỗng cà phê muối, 1/2 lb xúc xích cay, 6 oz phô mai monterey jack cắt nhỏ, bánh bột mì, dầu thực vật",
+"info" : "./breakfast-club/img/meals/burritoinfo.jpg",
+"description" : "Đơn giản với chất đạm & chất bột đường"
+},
+{"name": "Gà Soong",
+"img": "./breakfast-club/img/meals/chicken-casserole.jpg",
+"ingredients" : "Thịt gà, phô mai kem, phô mai tươi, kem chua, súp gà kem đặc, bột tỏi, bột hành tây, bánh quy giòn, bơ không muối",
+"info" : "./breakfast-club/img/meals/casseroleinfo.jpg",
+"description" : "Cân bằng chất đạm & chất bột đường"
+},
+{"name": "Món Tráng Miệng",
+"img": "./breakfast-club/img/meals/parfait.jpg",
+"ingredients" : "Sữa chua Hy Lạp, xi-rô cây phong, vani, hỗn hợp quả mọng (quả mâm xôi, quả việt quất, quả mâm xôi đen), hạt bí ngô, quả óc chó, hạt chia, bột hạt lanh, quế, đinh hương xay",
+"info" : "./breakfast-club/img/meals/parfaitinfo.jpg",
+"description" : "Ngọt & giàu chất đạm"
+},
+{"name": "Mì Ống Ý",
+"img": "./breakfast-club/img/meals/spaghetti.jpg",
+"ingredients" : "Thịt bò xay hoặc gà tây, hành tây, cà rốt, rau bina, muối, tỏi, gia vị Ý, oregano, húng quế khô, ớt đỏ mảnh, nước luộc rau, cà chua nghiền đóng hộp, mì spaghetti nguyên hạt",
+"info" : "./breakfast-club/img/meals/spaghettiinfo.jpg",
+"description" : "Món mì mì ống Ý tốt cho sức khỏe"
+}
+]

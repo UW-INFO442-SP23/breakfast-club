@@ -722,13 +722,26 @@ body {
 }
 
 
-
 @media (min-width: 1000px) {
   .ingredients {
     margin-top: -50px;
   }
 }
 
+.translate {
+  text-align: center;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
 
 
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
 
+.card-img-top {
+  width: 100%;
+  display: flex;
+}

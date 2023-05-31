@@ -1,25 +1,18 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
-<div className="translate">
-  <p>
-  <Link to="/breakfast-club" className=""><strong>English</strong></Link> |&nbsp;
-  <Link to="/breakfast-club-vn" className=""><strong>Tiếng Việt</strong></Link>
-  </p>
-</div>
-
-function FoodCard(props) {
+function FoodCardVN(props) {
     return (
         <div className="card">
               <div className="card-body">
-                <h3 className="card-title">{props.foods.name}</h3>
+                <h3 className="card-title">{props.foodsvn.name}</h3>
               </div>
-              <img className="card-img-bot" src={props.foods.img} alt={props.foods.name} />
+              <img className="card-img-bot" src={props.foodsvn.img} alt={props.foodsvn.name} />
         </div>
     )
   }
 
-function FoodCatalog(props) {
+function FoodCatalogVN(props) {
   const [filters, setFilters] = useState({
     carb: false,
     protein: false,
@@ -42,7 +35,7 @@ function FoodCatalog(props) {
     }));
   };
 
-  const filteredFoods = props.foods.filter((food) => {
+  const filteredFoodsVN = props.foodsvn.filter((food) => {
     return (
       (!filters.carb || food.carb === "true") &&
       (!filters.protein || food.protein === "true") &&
@@ -67,18 +60,18 @@ function FoodCatalog(props) {
         <Link to="/catalog-vn" className=""><strong>Tiếng Việt</strong></Link>
         </p>
       </div>
-      <h2>Food Catalog</h2>
-      <h3 id="catalogDesc">Use the filter to navigate through the foods catered to your nutritional needs!</h3>
+      <h2>Danh Mục Thực Phẩm</h2>
+      <h3 id="catalogDesc">Sử dụng bộ lọc để điều hướng qua các loại thực phẩm đáp ứng nhu cầu dinh dưỡng của bạn!</h3>
       <section className='catalog-content'>
         <section id="filter-box">
-            <h4>Macronutrient Source:</h4>
+            <h4>Nguồn Dinh Dưỡng Đa Lượng:</h4>
             <label>
             <input
                 type="checkbox"
                 checked={filters.carb}
                 onChange={() => handleFilterChange("carb")}
             />
-            Carb
+            Chất Bột Đường
             </label>
             <label>
             <input
@@ -86,7 +79,7 @@ function FoodCatalog(props) {
                 checked={filters.protein}
                 onChange={() => handleFilterChange("protein")}
             />
-            Protein
+            Chất Đạm
             </label>
             <label>
             <input
@@ -94,16 +87,16 @@ function FoodCatalog(props) {
                 checked={filters.fat}
                 onChange={() => handleFilterChange("fat")}
             />
-            Fat
+            Mỡ
             </label>
-            <h4>Dietary Preference:</h4>
+            <h4>Ưu Tiên Chế Độ Ăn Uống:</h4>
             <label>
             <input
                 type="checkbox"
                 checked={filters.df}
                 onChange={() => handleFilterChange("df")}
             />
-            Dairy-free
+            Sữa Miễn Phí
             </label>
             <label>
             <input
@@ -111,7 +104,7 @@ function FoodCatalog(props) {
                 checked={filters.gf}
                 onChange={() => handleFilterChange("gf")}
             />
-            Gluten-free
+            Không Chứa Gluten
             </label>
             <label>
             <input
@@ -119,7 +112,7 @@ function FoodCatalog(props) {
                 checked={filters.vegan}
                 onChange={() => handleFilterChange("vegan")}
             />
-            Vegan
+            Thuần Chay
             </label>
             <label>
             <input
@@ -127,16 +120,16 @@ function FoodCatalog(props) {
                 checked={filters.vegetarian}
                 onChange={() => handleFilterChange("vegetarian")}
             />
-            Vegetarian
+            Chay
             </label>
-            <h4>Food Category:</h4>
+            <h4>Danh Mục Thực Phẩm:</h4>
             <label>
             <input
                 type="checkbox"
                 checked={filters.produce}
                 onChange={() => handleFilterChange("produce")}
             />
-            Produce
+            Sản Vật
             </label>
             <label>
             <input
@@ -144,7 +137,7 @@ function FoodCatalog(props) {
                 checked={filters.grains}
                 onChange={() => handleFilterChange("grains")}
             />
-            Grains
+            Hạt
             </label>
             <label>
             <input
@@ -152,7 +145,7 @@ function FoodCatalog(props) {
                 checked={filters.dairy}
                 onChange={() => handleFilterChange("dairy")}
             />
-            Dairy & Eggs
+            Sữa & Trứng
             </label>
             <label>
             <input
@@ -160,7 +153,7 @@ function FoodCatalog(props) {
                 checked={filters.meat}
                 onChange={() => handleFilterChange("meat")}
             />
-            Meat
+            Thịt
             </label>
             <label>
             <input
@@ -168,16 +161,16 @@ function FoodCatalog(props) {
                 checked={filters.canned}
                 onChange={() => handleFilterChange("canned")}
             />
-            Canned
+            Đóng Hộp
             </label>
         </section>
         <section className="card-deck">
-          {filteredFoods.length > 0 ? (
-              filteredFoods.map((arrayItem) => (
-                <FoodCard foods={arrayItem} key={arrayItem.name} />
+          {filteredFoodsVN.length > 0 ? (
+              filteredFoodsVN.map((arrayItem) => (
+                <FoodCardVN foodsvn={arrayItem} key={arrayItem.name} />
               ))
             ) : (
-              <p id="noResults">No results found.</p>
+              <p id="noResults">Không có kết quả nào được tìm thấy.</p>
             )}
         </section>
     </section>
@@ -185,4 +178,4 @@ function FoodCatalog(props) {
   );
 }
 
-export default FoodCatalog;
+export default FoodCatalogVN;

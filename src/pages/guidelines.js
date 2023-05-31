@@ -1,8 +1,16 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 export default function Guidelines(props) {
 
   return (
       <section>
+        <div className="translate">
+          <p>
+            <Link to="/guidelines" className=""><strong>English</strong></Link> |&nbsp;
+            <Link to="/guidelines-vn" className=""><strong>Tiếng Việt</strong></Link>
+        </p>
+        </div>
         <h1>Dietary Guidelines</h1>
         <div className='dgadiv'>
             <img className='dgaimg' src='./breakfast-club/img/dgaguidelines.jpg' alt='dga guidelines'></img>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+
 export default function HomeVN(props) {
     return(
 
@@ -17,9 +18,9 @@ export default function HomeVN(props) {
       </div>
       <div className="row">
         <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1 className="h1HomeHeaderLeft"><strong>Nutritional Information for King County Food Pantries</strong></h1>
-          <h2 className="pHomeLeft">Our most vulnerable populations in King County need more nutritious meals. We're here to help your
-          food pantry provide food and meals that will keep your community healthy.</h2>
+          <h1 className="h1HomeHeaderLeft"><strong>Thông tin Dinh dưỡng cho Kho Thực phẩm của King County</strong></h1>
+          <h2 className="pHomeLeft">Những nhóm dân số dễ bị tổn thương nhất của chúng ta ở King County cần nhiều bữa ăn bổ dưỡng hơn. Chúng tôi ở đây để
+          giúp kho thực phẩm của bạn cung cấp thực phẩm và bữa ăn giúp cộng đồng của bạn khỏe mạnh.</h2>
           <div className="d-flex justify-content-center justify-content-lg-start">
           </div>
         </div>
@@ -41,23 +42,24 @@ export default function HomeVN(props) {
       </div> */}
         
       <div className="h1Home">
-        <p><strong>Let’s talk nutrition.</strong></p>
+        <p><strong>Hãy nói về dinh dưỡng.</strong></p>
       </div>
 
       <div className="pHome">
         <p>
-        To many in King County, food pantries are the only source of consistent food. Additionally, there is a lack of alignment in how the charitable food system defines and tracks the nutritional quality of food.
+        Đối với nhiều người ở King County, kho lương thực là nguồn cung cấp thực phẩm ổn định duy nhất. Ngoài ra, còn thiếu sự liên kết trong cách hệ thống thực phẩm từ thiện xác định và theo dõi chất lượng dinh dưỡng của thực phẩm.
         </p>
       </div>
 
       <div className="h1Home">
-        <p><strong>We’re here to help bridge the gap.</strong>
+        <p><strong>Chúng tôi ở đây để giúp thu hẹp khoảng cách.</strong>
         </p>
       </div>
 
       <div className="pHome">
         <p>
-        With our website, your food pantry can...</p>
+        Với trang web của chúng tôi, tủ đựng thức ăn của bạn có thể...
+        </p>
       </div>
 
 <br></br>
@@ -67,27 +69,27 @@ export default function HomeVN(props) {
   <div className="card">
     <img className="card-img-top" src="/breakfast-club/img/homecard1.png" alt="Card image cap"></img>
     <div className="card-body">
-      <h5 className="card-title pHomeCenter">View Nutrition</h5>
-      <p className="card-text">View nutritional information of common King County food pantry items.</p>
+      <h5 className="card-title pHomeCenter">Xem Dinh Dưỡng</h5>
+      <p className="card-text">Xem thông tin dinh dưỡng của các mặt hàng thực phẩm thông thường của King County.</p>
     </div>
   </div>
   <div className="card">
   <img className="card-img-top" src="/breakfast-club/img/homecard2.png" alt="Card image cap"></img>    <div className="card-body">
-      <h5 className="card-title pHomeCenter">Get Meal Inspiration</h5>
-      <p className="card-text">Think about the next healthy meal you’ll provide at your food pantry, made with common items.</p>
+      <h5 className="card-title pHomeCenter">Lấy Cảm Hứng Cho Bữa Ăn</h5>
+      <p className="card-text">Hãy nghĩ về bữa ăn lành mạnh tiếp theo mà bạn sẽ cung cấp tại tủ đựng thức ăn của mình, được chế biến từ những vật dụng thông thường.</p>
     </div>
   </div>
   <div className="card">
   <img className="card-img-top" src="/breakfast-club/img/homecard3.png" alt="Card image cap"></img>    <div className="card-body">
-      <h5 className="card-title pHomeCenter">Learn More</h5>
-      <p className="card-text">Learn about calores, macronutrients, nutrition facts, and more from the FDA!</p>
+      <h5 className="card-title pHomeCenter">Tìm Hiểu Thêm</h5>
+      <p className="card-text">Tìm hiểu về lượng calo, chất dinh dưỡng đa lượng, thông tin dinh dưỡng và hơn thế nữa từ FDA!</p>
     </div>
   </div>
 </div>
 
 <div className="h1HomeFinal">
     <p>
-    <Link to="/catalog" className="home-final-sentence"><strong>Let's feed King County.</strong></Link>
+    <Link to="/catalog" className="home-final-sentence"><strong>Hãy nuôi King County.</strong></Link>
     </p>
 </div>
 

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import meals from '../data/meals.json'
+import meals from '../data/mealsvn.json'
 import { Link } from "react-router-dom";
 
-export default function Meals(props) {
+export default function MealsVN(props) {
     const [popup, setPopup] = useState(false);
     const [selectedMeal, setSelectedMeal] = useState(null);
 
@@ -38,9 +38,10 @@ export default function Meals(props) {
                     <Link to="/meals-vn" className=""><strong>Tiếng Việt</strong></Link>
                 </p>
             </div>
-            <h1>Meals</h1>
+        
+            <h1>Bữa Ăn</h1>
             <div className="paragraphDiv">
-                 <p>Scroll through this list for recommended nutritious meals. To see their ingredients and nutritional value, click “See Details.”</p>
+                 <p>Cuộn qua danh sách này để biết các bữa ăn bổ dưỡng được đề xuất. Để xem thành phần và giá trị dinh dưỡng của chúng, hãy nhấp vào “Xem chi tiết”.</p>
             </div>
             <div className="meal-container">
                 {mealCards}
@@ -63,7 +64,7 @@ export default function Meals(props) {
                                 <img src={selectedMeal.info} alt={selectedMeal.name + " nutritional information"}/>
                             </div>
                         </div>
-                        <p className='ingredients'><strong>Ingredients: </strong>{selectedMeal.ingredients}</p>
+                        <p className='ingredients'><strong>Thành Phần: </strong>{selectedMeal.ingredients}</p>
                  </div>
                 
                 </div>
