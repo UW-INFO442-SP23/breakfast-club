@@ -27,15 +27,18 @@
 }
 
 .footerlogo {
-  height: 7em;
-  width: 7em;
+  height: 6em;
+  width: 6em;
   margin: auto;
 }
+
+
 
 .footerLinks ul {
   list-style: none;
   margin: auto;
-  margin-left: 40px;
+ 
+
 }
 
 .footerLinks {
@@ -754,4 +757,14 @@ body {
 .card-img-top {
   width: 100%;
   display: flex;
+}
+
+@media (max-width: 550) {
+  .footerLinks col-3{
+    width: 1000px;
+  }
+
+ .footerlogo {
+    width: 2px;
+  }
 }
