@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/breakfast-club/static/css/main.ff6275d2.css",
-    "main.js": "/breakfast-club/static/js/main.0375055c.js",
-    "static/media/breakfastclublogo.svg": "/breakfast-club/static/media/breakfastclublogo.4f43419eac9f1b86e2aba0b5a3179126.svg",
+    "main.css": "/breakfast-club/static/css/main.df13eab6.css",
+    "main.js": "/breakfast-club/static/js/main.00510fbb.js",
+    "static/media/breakfastclublogo.svg": "/breakfast-club/static/media/breakfastclublogo.79b68fd7ef3fa9f4e4c5cb37b03aeb62.svg",
     "index.html": "/breakfast-club/index.html",
     "static/media/icons8-hamburger-menu-50.svg": "/breakfast-club/static/media/icons8-hamburger-menu-50.58321db38db13fc244b0a31cc21c5812.svg",
-    "main.ff6275d2.css.map": "/breakfast-club/static/css/main.ff6275d2.css.map",
-    "main.0375055c.js.map": "/breakfast-club/static/js/main.0375055c.js.map"
+    "main.df13eab6.css.map": "/breakfast-club/static/css/main.df13eab6.css.map",
+    "main.00510fbb.js.map": "/breakfast-club/static/js/main.00510fbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff6275d2.css",
-    "static/js/main.0375055c.js"
+    "static/css/main.df13eab6.css",
+    "static/js/main.00510fbb.js"
   ]
 }
