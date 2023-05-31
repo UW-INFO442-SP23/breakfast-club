@@ -105,11 +105,16 @@ h1 {
   .imgDiv {
     display: none;
   }
+}
 
-  .footerLinks {
+@media (max-width: 390px) {
+  .imgDiv {
+    display: none;
+  }
+
+  .footerList {
     position: relative;
-    right: 15px;
-    margin-left: 0px;
+    left: 15px;
   }
 }
 
@@ -770,6 +775,12 @@ body {
   font-size: 20px;
 }
 
+
+@media (max-width: 710px) {
+  .heathfats, .satfats, .transfats {
+    display: none;
+  }
+}
 
 
 @media (max-width: 500px) {
