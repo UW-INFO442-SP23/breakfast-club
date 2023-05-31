@@ -575,19 +575,19 @@ h1 {
 }
 
 .popup-container {
+
   display: flex;
 }
 
 .popup .close-button {
   background: none;
   border: none;
-  position: relative;
-  
+
 }
 
 .close-button i {
   color: #333333;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 @media (max-width: 540px) {
