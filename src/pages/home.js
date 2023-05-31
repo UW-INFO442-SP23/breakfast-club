@@ -24,7 +24,7 @@ export default function Home(props) {
           </div>
         </div>
         <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="/breakfast-club/img/homepagecans.png" className="img-fluid animated" alt=""></img>
+          <img src="/breakfast-club/img/homepagecans.png" className="img-fluid animated" alt="cans"></img>
         </div>
       </div>
     </div>
