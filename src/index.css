@@ -552,9 +552,14 @@ body {
 */
 
 /* Guidelines */
-.fatsheading, .carbsheading, .protheading {
+.fatsheading, .carbsheading, .protheading{
   text-align: center;
-  color: gray;
+  color: rgb(90, 90, 90);
+  margin-top:.5em;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: .5rem;
+  background-color: #DDDDDD;
 }
 
 .dgadiv {
@@ -579,22 +584,16 @@ body {
 }
 
 .carbsdiv {
+  margin-top: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  /* padding-top: 50px; */
-  padding-bottom: 50px;
 }
 
 .fatsdiv {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  /* padding-top: 50px; */
 }
 
 .dgaimg {
@@ -602,15 +601,25 @@ body {
 }
 
 .protimg {
-  max-width: 70%;
+  max-width: 60%;
 }
 
 .whycarbsimg {
   max-width: 40%;
+  margin-bottom: 3rem;
+}
+
+.whycarbsdiv{
+  justify-content: center;
+  display: flex;
+}
+
+.carbsdiv h4{
+  text-align: center;
 }
 
 .carbsimg {
-  max-width: 80%;
+  width: 35%; 
 }
 
 .dgatextcontainer {
@@ -629,22 +638,22 @@ body {
   flex-grow: 1;
   display: flex;
   align-items: center;
+  margin-left: 20%;
+  font-size: large;
 }
 
 .fattextcontainer {
   flex-grow: 1;
   display: flex;
-  align-items: center;
+  width: 100%;
 }
 
-.protheading {
-  margin-left: 25vh;
-}
 
 .dgadescr {
-  margin: 0;
+  margin: 5rem;
   text-align: center;
   font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .protdescr {
@@ -664,15 +673,26 @@ body {
 }
 
 .fatdescr {
-  padding: 10px;
-  text-align: center;
+  margin-top: 5%;
+  margin-left: 20%;
+  text-align: left;
+  font-size: larger;
+}
+
+#fatTitle{
+  font-size: 2.2rem;
 }
 
 
 .nutrheading {
   text-align: center;
+  font-size: 2.5rem;
+  font-weight:normal;
 }
 
+#healthFat{
+  display: flex;
+}
 
 .compimg, .incompimg {
   max-width: 30%;
