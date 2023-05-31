@@ -12,6 +12,10 @@ export default function Guidelines(props) {
         </p>
         </div>
         <h1>Dietary Guidelines</h1>
+        <h2 id="videoDesc">Here is a video going over the best dietary and nutrtion practices as outlined by the US Department of Agriculture and Health and Human Services.</h2>
+          <div className="guidelineVideo">
+            <iframe src="https://www.youtube.com/embed/IR0PaeUNp4M" title="Youtbe Video: Understanding the Dietary Guidelines for Americans"></iframe>
+          </div>
         <div className='dgadiv'>
             <img className='dgaimg' src='./breakfast-club/img/dgaguidelines.jpg' alt='dga guidelines'></img>
             <div className='dgatextcontainer'>
