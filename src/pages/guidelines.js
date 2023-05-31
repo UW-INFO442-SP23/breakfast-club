@@ -16,20 +16,20 @@ export default function Guidelines(props) {
           <div className="guidelineVideo">
             <iframe src="https://www.youtube.com/embed/IR0PaeUNp4M" title="Youtbe Video: Understanding the Dietary Guidelines for Americans"></iframe>
           </div>
-        <div className='dgadiv'>
-            <img className='dgaimg' src='./breakfast-club/img/dgaguidelines.jpg' alt='dga guidelines'></img>
+        <section className='dgadiv'>
+            <img className='dgaimg' src='./breakfast-club/img/dgaguidelines.jpg' alt="Make every bite count with the Dietary Guidelines for Americans. Here's how: Limit foods and beverages higher in added sugars, saturated fat, and sodium, and limit alcoholic beverages. Follow a healthy dietary pattern at every life stage. Customize and enjoy nutrient- dense food and beverage choices to reflect personal preferences, cultural traditions, and budgetary considerations. Focus on meeting food group needs with nutrient-dense foods and beverages, and stay within calorie limits."></img>
             <div className='dgatextcontainer'>
               <p className='dgadescr'>This is an infographic taken from the Dietary Guidelines for Americans 2020-2025</p>
             </div>
-        </div>
+        </section>
 
         <h2 className='nutrheading'>Let's Learn about different types of Nutrients</h2>
         <h3 className='protheading'>Protein 101</h3>
         <div className='nutrientsdiv'>
 
-          <div className='protdiv'>
+          <section className='protdiv'>
 
-            <img className='protimg' src='./breakfast-club/img/protein-guide.png' alt='protein guide'></img>
+            <img className='protimg' src='./breakfast-club/img/protein-guide.png' alt='How many grams of protein should I have each day? JUU Divide your weight by 2.2, then, multiply by 0.8. = grams per day For example: 150 lbs ÷ 2.2 = 68.2 68.2 x 0.8= 54.5 grams of protein each day Eat protein with all 3 meals to get energy throughout the day.'></img>
 
             <div className='prottextcontainer'>
               <div className='protdescr'>
@@ -44,16 +44,14 @@ export default function Guidelines(props) {
                 <img className='incompimg' src='./breakfast-club/img/incompproteins.png' alt='Examples of incomplete proteins'></img>
                 {/* </p> */}
               </div>
-              </div>
-              </div>
-
-
+            </div>
+          </section>
           <h3 className='carbsheading'>Carbs 101</h3>
-          <div className='carbsdiv'>
+          <section className='carbsdiv'>
             <div id="leftCarbs">
             <h4>Why Carbs?</h4>
               <div className='whycarbsdiv'>
-                <img className='whycarbsimg' src='./breakfast-club/img/whycarbs.jpg' alt='why carbs?'></img>
+                <img className='whycarbsimg' src='./breakfast-club/img/whycarbs.jpg' alt='Digestion, Fuel, Disease prevention, weight managment'></img>
               </div>
               <div className='carbstextcontainer'>
                 <p>
@@ -76,12 +74,12 @@ export default function Guidelines(props) {
                 </p>
               </div>
             </div>
-              <img className='carbsimg' src='./breakfast-club/img/carbs-guide.jpg' alt='carbs infographic'></img>
-          </div>
+              <img className='carbsimg' src='./breakfast-club/img/carbs-guide.jpg' alt="HOW does your body use carbs? THE UNIVERSITY OF TEXAS MD Anderson Cancer Center Making Cancer HistoryⓇ Carb digestion starts as you chew. Acid in stomach stops the digestion started in the mouth. In the intestines, carbs are turned into glucose or simple sugars to fuel cells. Fiber can't be fully digested, so it slows the absorption of starches and simple sugars. The broken down carbs are absorbed into your bloodstream and sent to muscles, organs and tissues. This keeps cells healthy and gives you energy. Excess carbs are stored in the liver as glycogen, an energy source, and in the body as fat. Choose healthy carbs: peas nuts carrots sweet potatoes low- fat dairy refined sugars squash oatmeal apples refined grains bananas Avoid unhealthy carbs: beans. pastries & candy grapes pears sweetened drinks"></img>
+          </section>
 
           <h3 className='fatsheading'>Fats 101</h3>
 
-          <div className='fatsdiv'>
+          <section className='fatsdiv'>
             <div className='fattextcontainer'>
               <div className='fatdescr'>
               <b id="fatTitle">Healthy vs unhealthy fats</b><br></br>
@@ -108,11 +106,10 @@ export default function Guidelines(props) {
               <p>Fat should make up 20-35% of your daily calories</p><br></br>
               <p>“Dietary fats give you energy, support cell function and help your body absorb nutrients from vegetables, fruits and other foods” -Erma Levy (research dietitian)</p>
             </div>
-
-          </div>
+          </section>
 
           <div className='fatsindietdiv'>
-              <img className='fatsindiet' src='./breakfast-club/img/fatsdiet.png' alt="fats recommendations"></img>
+              <img className='fatsindiet' src='./breakfast-club/img/fatsdiet.png' alt="Try cooking with canola or olive oil instead of butter, margarine or shortening Ways to make healthy fats a part of your diet Add nuts or seed to a fruit smoothie. Or spread peanut butter on whole grain bread or apples Eat your salad with an olive-oil based dressing. Avoid creamy dressings Eat fish like salmon, tuna or herring a couple time a week as an alternative to red meat"></img>
           </div>
 
         </div>
