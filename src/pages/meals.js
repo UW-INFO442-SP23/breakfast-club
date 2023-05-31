@@ -52,13 +52,10 @@ export default function Meals(props) {
                                     <img src={selectedMeal.img} alt={selectedMeal.name}></img>
                                     <p className='popup-card-description'>{selectedMeal.description}</p>
                                 </div>
-                              
                             </div>
-                        
                             <div className="label">
-                                <img src={selectedMeal.info} alt={selectedMeal.name}/>
+                                <img src={selectedMeal.info} alt={selectedMeal.name + " nutritional information"}/>
                             </div>
-                            
                         </div>
                         <p className='ingredients'><strong>Ingredients: </strong>{selectedMeal.ingredients}</p>
                  </div>

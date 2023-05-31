@@ -8,43 +8,43 @@
 {"name": "Rice and Beans",
 "img": "./breakfast-club/img/meals/riceandbeans.jpg",
 "ingredients" : "Long-grain parboiled rice, veggie stock, oil, onion, bell pepper, garlic, jalapeño, beans, cumin powder, chili powder, salt, pepper, cilantro",
-"info" : "./breakfast-club/img/meals/blankLabel.jpg",
+"info" : "./breakfast-club/img/meals/ricebeansinfo.jpg",
 "description" : "Vegan-friendly"
 },
 {"name": "Clam Chowder",
 "img": "./breakfast-club/img/meals/clam-chowder.jpg",
 "ingredients" : "Thick-cut bacon, diced white onions, all-purpose flour, canned minced clams, clam juice, red potatoes, bay leaf, dried thyme leaves, heavy cream, minced fresh parsely, salt, fresh ground black pepper",
-"info" : "./breakfast-club/img/meals/blankLabel.jpg",
+"info" : "./breakfast-club/img/meals/chowderinfo.jpg",
 "description" : "Pescaterian-friendly"
 },
 {"name": "Chicken Noodle Soup",
 "img": "./breakfast-club/img/meals/chicken-noodle-soup.jpg",
 "ingredients" : "Flour, salt, milk, eggs, Farfalle pasta, elbow macaroni, chicken breast, carrots, rotini, chicken stock",
-"info" : "./breakfast-club/img/meals/blankLabel.jpg",
+"info" : "./breakfast-club/img/meals/chickensoup.jpg",
 "description" : "Protein, carbs, & vegetables"
 },
 {"name": "Breakfast Burrito",
 "img": "./breakfast-club/img/meals/breakfast-burrito.jpg",
 "ingredients" : "1 avocado, 1/2 cup diced tomatoes, 2 tbsp minced shallot, 1 clove  garlic, 1 jalapeño pepper, 1 tbsp lime juice, 1/2 tsp salt, 1/4 tsp ground cumin, 1/4 cup chopped cilantro, 4 eggs, 1/4 tsp smoked paprika, 1/4 tsp salt, 1/2 lb spicy sausage, 6 oz shredded Monterey jack cheese, flour tortillas, vegetable oil",
-"info" : "./breakfast-club/img/meals/blankLabel.jpg",
+"info" : "./breakfast-club/img/meals/burritoinfo.jpg",
 "description" : "Simple with protein and carbs"
 },
 {"name": "Chicken Casserole",
 "img": "./breakfast-club/img/meals/chicken-casserole.jpg",
 "ingredients" : "chicken, cream cheese, cottage cheese, sour cream, condensed cream of chicken soup, garlic powder, onion powder, ritz crackers, unsalted butter",
-"info" : "./breakfast-club/img/meals/blankLabel.jpg",
+"info" : "./breakfast-club/img/meals/casseroleinfo.jpg",
 "description" : "Balance of protein and carbs"
 },
 {"name": "Protein Parfait",
 "img": "./breakfast-club/img/meals/parfait.jpg",
 "ingredients" : "Greek yogurt, maple syrup, vanilla, mixed berries (raspberries, blueberries, blackbarries), pumpkin seeds, walnuts, chia seeds, flax seed meal, cinnamon, ground cloves",
-"info" : "./breakfast-club/img/meals/blankLabel.jpg",
+"info" : "./breakfast-club/img/meals/parfaitinfo.jpg",
 "description" : "Sweet & protein-rich"
 },
 {"name": "Spaghetti",
 "img": "./breakfast-club/img/meals/spaghetti.jpg",
 "ingredients" : "Ground beef or turkey, onion, carrot, spinach, salt, garlic, italian seasoning, oregano, dried basil, red pepper flakes, vegetable broth, canned crush tomatoes, whole grain spaghetti",
-"info" : "./breakfast-club/img/meals/blankLabel.jpg",
+"info" : "./breakfast-club/img/meals/spaghettiinfo.jpg",
 "description" : "Healthy take on spaghetti"
 }
 ]

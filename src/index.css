@@ -587,7 +587,7 @@ h1 {
 
 .close-button i {
   color: #333333;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 @media (max-width: 540px) {
@@ -629,7 +629,7 @@ h1 {
 
 
 .label img {
-  width: 90%;
+  width: 100%;
   height: 70%;
 }
 
@@ -695,7 +695,6 @@ h1 {
   font-family: "Montserrat";
   font-size: 18px;
   top: -90px;
-  margin-top: 10px;
 }
 
 
