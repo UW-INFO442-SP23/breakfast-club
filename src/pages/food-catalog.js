@@ -158,9 +158,13 @@ function FoodCatalog(props) {
             </label>
         </div>
         <div className="card-deck">
-            {filteredFoods.map((arrayItem) => (
-            <FoodCard foods={arrayItem} key={arrayItem.name} />
-            ))}
+          {filteredFoods.length > 0 ? (
+              filteredFoods.map((arrayItem) => (
+                <FoodCard foods={arrayItem} key={arrayItem.name} />
+              ))
+            ) : (
+              <p id="noResults">No results found.</p>
+            )}
         </div>
     </div>
     </div>
