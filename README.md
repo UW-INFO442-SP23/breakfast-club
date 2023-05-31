@@ -30,10 +30,25 @@ The published site can be viewed here: https://uw-info442-sp23.github.io/breakfa
 * Yawen (Jenny) Guo
 * Kenny Pham
 
-# User Persona:
+# User Personas:
 The two user personas we used when designing our product can be found [here](https://github.com/UW-INFO442-SP23/breakfast-club/blob/main/NourishedKingsPersonas.pdf).
 
-# Development Instructions
+# Development
+## Built With:
+* JavaScript
+* CSS
+* HTML
+* React
+
+## Start Localhost
+
+`npm start`
+
+`Ctrl + C` to cancel
+
+## Deploy Build to GitHub Pages
+
+`npm run deploy`
 ## Testing Protocols
 |  | Feature 1: Food List Filtering | Feature 2: Interactive Meal Cards |
 |--|--|--|
