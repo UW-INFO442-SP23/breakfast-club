@@ -12,6 +12,10 @@ export default function Guidelines(props) {
         </p>
         </div>
         <h1>Hướng Dẫn Chế Độ Ăn Uống</h1>
+        <h2 id="videoDesc">Dưới đây là video giới thiệu các thực hành ăn kiêng và dinh dưỡng tốt nhất do Bộ Nông nghiệp, Y tế và Dịch vụ Nhân sinh Hoa Kỳ vạch ra.</h2>
+          <div className="guidelineVideo">
+            <iframe src="https://www.youtube.com/embed/IR0PaeUNp4M" title="Youtbe Video: Understanding the Dietary Guidelines for Americans"></iframe>
+          </div>
         <div className='dgadiv'>
             <img className='dgaimg' src='./breakfast-club/img/dgaguidelines-vn.jpg' alt='dga guidelines'></img>
             <div className='dgatextcontainer'>
